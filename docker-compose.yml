@@ -1,0 +1,82 @@
+version: '3.8'
+
+services:
+    db:
+       image: mysql:5.7
+       container_name: mysql_load
+       ports:
+           - 3309:3306
+       restart: always
+       command: --default-authentication-plugin=mysql_native_password
+       environment:
+           MYSQL_DATABASE: cehp
+           MYSQL_PASSWORD: password
+           MYSQL_ROOT_PASSWORD: password
+       volumes:
+           - /root/mysql/load_dump:/docker-entrypoint-initdb.d 
+           - /root/mysql/load:/var/lib/mysql
+           - /root/mysql/load_log:/var/log/mysql
+       networks:
+           - load_network
+
+    www1:
+       build: ./web1
+       container_name: webserver1
+       restart: always
+       volumes:
+         - ./web1/mycert.crt:/etc/ssl/certs/mycert.crt
+         - ./web1/mycert.key:/etc/ssl/private/mycert.key
+         - ./www:/var/www/html
+       ports:
+         - 8003:80   
+         - 8004:443
+       links:
+         - db    
+       networks:
+         - load_network
+
+    phpmyadmin:
+       build: ./phpmyadmin/
+       container_name: phpmyadmin_load
+       restart: always
+       volumes:
+         - ./phpmyadmin/mycert.crt:/etc/ssl/certs/mycert.crt
+         - ./phpmyadmin/mycert.key:/etc/ssl/private/mycert.key
+       links:
+          - db:db
+       ports: 
+          - 8005:80
+          - 8006:443
+       environment:  
+           MYSQL_USER: root
+           MYSQL_PASSWORD: password
+           MYSQL_ROOT_PASSWORD: password
+           UPLOAD_LIMIT: 1024M
+           MAX_EXECUTION_TIME: 300
+           MEMORY_LIMIT: 1024M
+       networks:
+          - load_network
+
+    www2:
+       build: ./web2
+       container_name: webserver2
+       restart: always
+       volumes:
+         - ./web2/mycert.crt:/etc/ssl/certs/mycert.crt
+         - ./web2/mycert.key:/etc/ssl/private/mycert.key
+         - ./www:/var/www/html
+       ports:
+         - 8007:80   
+         - 8008:443
+       links:
+         - db    
+       networks:
+         - load_network
+
+networks:
+        load_network:
+
+
+
+
+

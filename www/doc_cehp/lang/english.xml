@@ -1,0 +1,3084 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ew-language date="2023/1/30" version="16.0.1" id="en" name="English" desc="English" author="e.World Technology Ltd.">
+  <!-- 
+	*** Important Notes:
+	1. Language ID should follow: https://developers.google.com/recaptcha/docs/language,
+	2. Locale settings are placed in a separate locale files under the "locales" folder,
+	3. Locale files must be named with language ID of language file (and converted to lowercase), e.g. en.json,
+	4. Locale files are ALWAYS used, regardless of whether the project is single language or multiple language.
+-->
+  <global>
+    <phrase id="accept" value="Accept" />
+    <!-- v2019 -->
+    <phrase id="actiondeleted" value="Deleted" />
+    <phrase id="actioninserted" value="Inserted" />
+    <phrase id="actioninsertedgridadd" value="Inserted (Grid-Add)" />
+    <phrase id="actionupdated" value="Updated" />
+    <phrase id="actionupdatedgridedit" value="Updated (Grid-Edit)" />
+    <phrase id="actionupdatedmultiupdate" value="Updated (Multi-Update)" />
+    <phrase id="activateaccount" value="Your account is activated" />
+    <phrase id="activatefailed" value="Activation failed" />
+    <phrase id="add" value="Add" />
+    <phrase id="addblankrow" value="Add Blank Row" class="fas fa-plus ew-icon" />
+    <!-- v2019 -->
+    <phrase id="addbtn" value="Add" client="1" />
+    <!-- v2018 -->
+    <phrase id="addlink" value="Add" class="fas fa-plus ew-icon" />
+    <!-- v2019 -->
+    <phrase id="addmasterdetaillink" value="Master/Detail Add" class="icon-md-add ew-icon" />
+    <!-- v11 -->
+    <phrase id="addsuccess" value="Add succeeded" />
+    <phrase id="advancedsearch" value="Advanced Search" />
+    <!-- v11 -->
+    <phrase id="advancedsearchbtn" value="Advanced Search" class="icon-advanced-search ew-icon" />
+    <!-- v11 -->
+    <phrase id="aggregatecolon" value=": " />
+    <!-- v2020 (report) -->
+    <phrase id="aggregateequal" value="=" />
+    <!-- v2020 (report) -->
+    <phrase id="allrecords" value="All" />
+    <phrase id="allword" value="All words" />
+    <phrase id="alwaysask" value="Always ask for my user name and password" />
+    <!-- Deprecated since v2018 -->
+    <phrase id="anyword" value="Any word" />
+    <phrase id="audittrailautologin" value="autologin" />
+    <phrase id="audittrailfailedattempt" value="failed attempt: %n" />
+    <phrase id="audittrailuserloggedin" value="user already logged in" />
+    <phrase id="audittrailpasswordexpired" value="password expired" />
+    <phrase id="audittraillogin" value="login" />
+    <phrase id="audittraillogout" value="logout" />
+    <phrase id="autologin" value="Auto login until I logout explicitly" />
+    <!-- Deprecated since v2018 -->
+    <phrase id="autologinfailed" value="Auto login failed" />
+    <!-- v2018 -->
+    <phrase id="average" value="Average" />
+    <phrase id="backtolist" value="Back to List" />
+    <phrase id="backtologin" value="Back to login page" />
+    <phrase id="backtomasterrecordpage" value="Back to master table" />
+    <phrase id="batchdeletebegin" value="*** Batch delete begin ***" />
+    <phrase id="batchdeleterollback" value="*** Batch delete rollback ***" />
+    <phrase id="batchdeletesuccess" value="*** Batch delete successful ***" />
+    <phrase id="batchinsertbegin" value="*** Batch insert begin ***" />
+    <phrase id="batchinsertrollback" value="*** Batch insert rollback ***" />
+    <phrase id="batchinsertsuccess" value="*** Batch insert successful ***" />
+    <phrase id="batchupdatebegin" value="*** Batch update begin ***" />
+    <phrase id="batchupdaterollback" value="*** Batch update rollback ***" />
+    <phrase id="batchupdatesuccess" value="*** Batch update successful ***" />
+    <phrase id="booleanno" value="No" />
+    <!-- v2020 (report) -->
+    <phrase id="booleanyes" value="Yes" />
+    <!-- v2020 (report) -->
+    <phrase id="buttonactions" value="Actions" class="icon-options ew-icon" />
+    <!-- v11 -->
+    <phrase id="buttonaddedit" value="Add/Edit" class="icon-addedit ew-icon" />
+    <!-- v11 -->
+    <phrase id="buttondetails" value="Master/Detail" class="icon-master-detail ew-icon" />
+    <!-- v11 -->
+    <phrase id="buttonexport" value="Export" class="fas fa-download ew-icon" />
+    <!-- v2019 -->
+    <phrase id="buttonimport" value="Import" class="fas fa-upload ew-icon" />
+    <!-- v2019 -->
+    <phrase id="buttonlistoptions" value="Options" class="icon-options ew-icon" />
+    <!-- v11 -->
+    <phrase id="buttonsearch" value="Search" class="icon-search ew-icon" />
+    <!-- v11 -->
+    <phrase id="cancelbtn" value="Cancel" client="1" />
+    <!-- v2017 -->
+    <phrase id="cancellink" value="Cancel" class="fas fa-times ew-icon" />
+    <!-- v2019 -->
+    <phrase id="changepwd" value="Change Password" client="1" />
+    <!-- v2020 -->
+    <phrase id="changepwdmsg" value="Change Password" />
+    <!-- v2019 -->
+    <phrase id="changepwdpage" value="Change Password" />
+    <phrase id="changepwdbtn" value="Change" />
+    <phrase id="chartorder" value="Order by" />
+    <!-- v2020 (report) -->
+    <phrase id="chartorderxasc" value="Labels Ascending" />
+    <!-- v2020 (report) -->
+    <phrase id="chartorderxdesc" value="Labels Descending" />
+    <!-- v2020 (report) -->
+    <phrase id="chartorderyasc" value="Values Ascending" />
+    <!-- v2020 (report) -->
+    <phrase id="chartorderydesc" value="Values Descending" />
+    <!-- v2020 (report) -->
+    <phrase id="choosefilebtn" value="Choose..." />
+    <!-- v11 -->
+    <phrase id="choosefile" value="Choose file" />
+    <!-- v11 -->
+    <phrase id="choosefiles" value="Choose files" />
+    <!-- v11 -->
+    <phrase id="clickrecaptcha" value="Please click reCAPTCHA" client="1" />
+    <!-- v12 -->
+    <phrase id="clicktodrilldown" value="Click to drill down" />
+    <!-- v2020 (report) -->
+    <phrase id="closeaccountbtn" value="Delete data and close my account" />
+    <!-- v2019 -->
+    <phrase id="closebtn" value="Close" client="1" />
+    <!-- v2017 -->
+    <phrase id="confirm" value="Confirm" />
+    <phrase id="confirmbtn" value="Confirm" client="1" />
+    <!-- v2017 -->
+    <phrase id="confirmcancel" value="Do you want to cancel?" client="1" />
+    <!-- v12 -->
+    <phrase id="confirmpassword" value="Confirm Password" />
+    <phrase id="conflictcancellink" value="Cancel" />
+    <phrase id="cookieconsentsummary" value="Use this space to summarize your privacy and cookie use policy." />
+    <!-- v2019 -->
+    <phrase id="copy" value="Copy" />
+    <phrase id="copylink" value="Copy" class="icon-copy ew-icon" />
+    <!-- v11 -->
+    <phrase id="count" value="Count" />
+    <phrase id="countselected" value="%s selected" client="1" />
+    <!-- v12 -->
+    <phrase id="ctbsumhead" value="Summary" />
+    <!-- v2020 (report) -->
+    <phrase id="currentfilters" value="Current filters:" />
+    <!-- v2020 (report) -->
+    <phrase id="currentpassword" value="Current password: " client="1" />
+    <!-- v12 -->
+    <phrase id="customactioncompleted" value="'%s' completed" />
+    <phrase id="customactioncancelled" value="'%s' cancelled" />
+    <phrase id="customactionfailed" value="'%s' failed" />
+    <!-- v12 -->
+    <phrase id="customactionnotallowed" value="'%s' not allowed" />
+    <!-- v12 -->
+    <phrase id="customview" value="CUSTOM VIEW" />
+    <phrase id="danger" value="Error" client="1" />
+    <!-- v2020 -->
+    <phrase id="delete" value="Delete" />
+    <phrase id="deletebtn" value="Delete" />
+    <phrase id="deletecancelled" value="Delete cancelled" />
+    <phrase id="deleteconfirmmsg" value="Are you sure you want to delete?" client="1" />
+    <phrase id="deletefilter" value="Delete filter" />
+    <!-- v12 -->
+    <phrase id="deletefilterconfirm" value="Delete filter %s?" client="1" />
+    <!-- v12 -->
+    <phrase id="deletelink" value="Delete" class="fas fa-trash ew-icon" />
+    <!-- v2019 -->
+    <phrase id="deleteselectedlink" value="Delete Selected Records" class="fas fa-trash ew-icon" />
+    <!-- v2019 -->
+    <phrase id="deletesuccess" value="Delete succeeded" />
+    <phrase id="detaillink" value="" />
+    <phrase id="detailcount" value="&lt;span class='badge badge-info ew-detail-count%c'&gt;%c&lt;/span&gt;" />
+    <!-- v2019 -->
+    <phrase id="downloadbtn" value="Download" />
+    <!-- v2019 -->
+    <phrase id="drilldownallrecords" value="All records" />
+    <!-- v2020 (report) -->
+    <phrase id="drilldownfilters" value="Drill down filters:" />
+    <!-- v2020 (report) -->
+    <phrase id="dupindex" value="Duplicate value '%v' for unique index '%f'" />
+    <phrase id="dupkey" value="Duplicate primary key: '%f'" />
+    <phrase id="edit" value="Edit" />
+    <phrase id="editbtn" value="Edit" client="1" />
+    <!-- v2018 -->
+    <phrase id="editlink" value="Edit" class="icon-edit ew-icon" />
+    <!-- v11 -->
+    <phrase id="enterfiltername" value="Enter filter name" client="1" />
+    <!-- v12 -->
+    <phrase id="enternewpassword" value="Please enter new password" client="1" />
+    <phrase id="enteroldpassword" value="Please enter old password" client="1" />
+    <phrase id="enterpassword" value="Please enter password" client="1" />
+    <phrase id="enterpwd" value="Please enter password" client="1" />
+    <phrase id="enterrequiredfield" value="Please enter required field - %s" />
+    <!-- v11 -->
+    <phrase id="entersearchcriteria" value="Please enter search criteria" />
+    <phrase id="enterusername" value="Please enter username" client="1" />
+    <phrase id="entervalidatecode" value="Enter the validation code shown" client="1" />
+    <!-- v11 -->
+    <phrase id="entersenderemail" value="Please enter sender email" client="1" />
+    <phrase id="enterpropersenderemail" value="Exceed maximum sender email count or email address incorrect" client="1" />
+    <phrase id="enterrecipientemail" value="Please enter recipient email" client="1" />
+    <phrase id="enterproperrecipientemail" value="Exceed maximum recipient email count or email address incorrect" client="1" />
+    <phrase id="enterproperccemail" value="Exceed maximum cc email count or email address incorrect" client="1" />
+    <phrase id="enterproperbccemail" value="Exceed maximum bcc email count or email address incorrect" client="1" />
+    <phrase id="entersubject" value="Please enter subject" client="1" />
+    <phrase id="emailformsender" value="From" />
+    <phrase id="emailformrecipient" value="To" />
+    <phrase id="emailformcc" value="Cc" />
+    <phrase id="emailformbcc" value="Bcc" />
+    <phrase id="emailformsubject" value="Subject" />
+    <phrase id="emailformmessage" value="Message" />
+    <phrase id="emailformcontenttype" value="Send as" />
+    <phrase id="emailformcontenttypeurl" value="URL" />
+    <phrase id="emailformcontenttypehtml" value="HTML" />
+    <phrase id="emptylabel" value="(Empty)" />
+    <!-- v2020 (report) -->
+    <phrase id="enteruid" value="Please enter user ID" client="1" />
+    <phrase id="entervalidemail" value="Please enter valid Email Address" client="1" />
+    <phrase id="exactphrase" value="Exact phrase" />
+    <phrase id="exceedmaxretry" value="Exceed maximum login retry count. Account is locked. Please try again in %t minutes" />
+    <phrase id="exceedmaxemailexport" value="Exceed maximum export email count. Please try again later" />
+    <phrase id="exportchart" value="Exporting chart: " client="1" />
+    <!-- v2020 (report) -->
+    <phrase id="exportchartdata" value="Exporting chart data" client="1" />
+    <!-- v2020 (report) -->
+    <phrase id="exportcharterror" value="Failed to export chart: " client="1" />
+    <!-- v2020 (report) -->
+    <phrase id="exportclassnotfound" value="Export class not found" />
+    <!-- v2019 -->
+    <phrase id="exporting" value="Exporting, please wait..." client="1" />
+    <!-- v2018 -->
+    <phrase id="exportingchart" value="Exporting chart (%c of %t), please wait..." client="1" />
+    <!-- v2020 (report) -->
+    <phrase id="exporttocsv" value="Export to CSV" class="icon-csv ew-icon" />
+    <!-- v11 -->
+    <phrase id="exporttocsvtext" value="CSV" />
+    <phrase id="exporttoemail" value="Email" class="icon-email ew-icon" />
+    <!-- v11 -->
+    <phrase id="exporttoemailtext" value="Email" client="1" />
+    <phrase id="exporttoexcel" value="Export to Excel" class="icon-excel ew-icon" />
+    <!-- v11 -->
+    <phrase id="exporttoexceltext" value="Excel" />
+    <phrase id="exporttohtml" value="Export to HTML" class="icon-html ew-icon" />
+    <!-- v11 -->
+    <phrase id="exporttohtmltext" value="HTML" />
+    <phrase id="exporttopdf" value="Export to PDF" class="icon-pdf ew-icon" />
+    <!-- v11 -->
+    <phrase id="exporttopdftext" value="PDF" />
+    <phrase id="exporttoword" value="Export to Word" class="icon-word ew-icon" />
+    <!-- v11 -->
+    <phrase id="exporttowordtext" value="Word" />
+    <phrase id="exporttoxml" value="Export to XML" class="icon-xml ew-icon" />
+    <!-- v11 -->
+    <phrase id="exporttoxmltext" value="XML" />
+    <phrase id="failedtoexport" value="Failed to Export" client="1" />
+    <!-- v2018 -->
+    <phrase id="failedtosendmail" value="Failed to send mail. " />
+    <phrase id="fieldname" value="Field Name" />
+    <phrase id="fieldrequiredindicator" class="fas fa-asterisk ew-required" />
+    <!-- v2019 -->
+    <phrase id="filenotfound" value="File not found" />
+    <phrase id="filter" value="Filter" />
+    <!-- v12 -->
+    <phrase id="filtername" value="Filter name" client="1" />
+    <!-- v12 -->
+    <phrase id="filters" value="Filters" class="icon-filter ew-icon" />
+    <!-- v12 -->
+    <phrase id="forgotpasswordresponse" value="You will receive password recovery instructions shortly if your email address is registered." />
+    <!-- v2019 -->
+    <phrase id="forgotpwd" value="Forgot Password" client="1" />
+    <!-- v2020 -->
+    <phrase id="generatepassword" value="Generate password" class="fas fa-bolt ew-icon" />
+    <!-- v2019 -->
+    <phrase id="goback" value="Go Back" />
+    <phrase id="gridaddcancelled" value="Grid add cancelled" />
+    <!-- v11 -->
+    <phrase id="gridaddlink" value="Grid Add" class="icon-grid-add ew-icon" />
+    <!-- v11 -->
+    <phrase id="gridcancellink" value="Cancel" class="fas fa-times ew-icon" />
+    <!-- v2019 -->
+    <phrase id="grideditcancelled" value="Grid edit cancelled" />
+    <!-- v11 -->
+    <phrase id="grideditlink" value="Grid Edit" class="icon-grid-edit ew-icon" />
+    <!-- v11 -->
+    <phrase id="gridinsertlink" value="Insert" class="fas fa-check ew-icon" />
+    <!-- v2019 -->
+    <phrase id="gridsavelink" value="Save" class="fas fa-check ew-icon" />
+    <!-- v2019 -->
+    <phrase id="group" value="Groups" />
+    <!-- v2020 (report) -->
+    <phrase id="groupsperpage" value="Groups per page" />
+    <!-- v2020 (report) -->
+    <phrase id="highlight" value="Highlight" />
+    <!-- v11 -->
+    <phrase id="highlightbtn" value="Highlight" class="icon-highlight ew-icon" />
+    <!-- v11 -->
+    <phrase id="homepage" value="Home" class="fas fa-home ew-icon" />
+    <!-- v2019 -->
+    <phrase id="import" value="Import" class="fas fa-upload ew-icon" />
+    <!-- v2019 -->
+    <phrase id="importbtn" value="Import" />
+    <!-- v2019 -->
+    <phrase id="importmessageerror1" value="Imported %c of %t records from %f (success: %s, failure: %e)" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageerror2" value=", error: %e" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageerror3" value="row %i: %d" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageerror4" value="log file: %l" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageinvalidfileextension" value="Invalid file extension '%e'" />
+    <!-- v2019 -->
+    <phrase id="importmessageinvalidfieldname" value="Invalid field name: %f" />
+    <!-- v2019 -->
+    <phrase id="importmessageinvalidfieldvalue" value="Invalid field value (field name %f): %v" />
+    <!-- v2019 -->
+    <phrase id="importmessagemore" value="(%s more)" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessagenoheaderrow" value="No header row for import" />
+    <!-- v2019 -->
+    <phrase id="importmessageprogress" value="Importing %c of %t records from %f..." client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageservererror" value="Server error %s: %t" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessagesuccess" value="Imported %c of %t records from %f successfully" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageuploaderror" value="Failed to upload %f: %s" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageuploadcomplete" value="Upload completed" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageuploadprogress" value="Uploading...(p%)" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessagepleaseselect" value="Please select file" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageincorrectfiletype" value="Incorrect file type" client="1" />
+    <!-- v2019 -->
+    <phrase id="importtext" value="Import" client="1" />
+    <!-- v2019 -->
+    <phrase id="incorrectcreditcard" value="Incorrect credit card number" />
+    <phrase id="incorrectdate" value="Incorrect date (%s)" />
+    <phrase id="incorrectdateymd" value="Incorrect date (yyyy%smm%sdd)" />
+    <phrase id="incorrectdatemdy" value="Incorrect date (mm%sdd%syyyy)" />
+    <phrase id="incorrectdatedmy" value="Incorrect date (dd%smm%syyyy)" />
+    <phrase id="incorrectshortdateymd" value="Incorrect date (yy%smm%sdd)" />
+    <phrase id="incorrectshortdatemdy" value="Incorrect date (mm%sdd%syy)" />
+    <phrase id="incorrectshortdatedmy" value="Incorrect date (dd%smm%syy)" />
+    <phrase id="incorrectemail" value="Incorrect email" client="1" />
+    <phrase id="incorrectfield" value="Incorrect field" client="1" />
+    <phrase id="incorrectfloat" value="Incorrect floating point number" client="1" />
+    <phrase id="incorrectguid" value="Incorrect GUID" client="1" />
+    <phrase id="incorrectinteger" value="Incorrect integer" client="1" />
+    <phrase id="incorrectphone" value="Incorrect phone number" client="1" />
+    <phrase id="incorrectrange" value="Number must be between %1 and %2" client="1" />
+    <phrase id="incorrectregexp" value="Regular expression not matched" client="1" />
+    <phrase id="incorrectssn" value="Incorrect social security number" client="1" />
+    <phrase id="incorrecttime" value="Incorrect time (hh%smm(%sss))" />
+    <phrase id="incorrectzip" value="Incorrect ZIP code" client="1" />
+    <phrase id="info" value="Information" client="1" />
+    <!-- v2020 -->
+    <phrase id="inlineaddlink" value="Inline Add" class="icon-inline-add ew-icon" />
+    <!-- v11 -->
+    <phrase id="inlinecopylink" value="Inline Copy" class="icon-inline-copy ew-icon" />
+    <!-- v11 -->
+    <phrase id="inlineeditlink" value="Inline Edit" class="icon-inline-edit ew-icon" />
+    <!-- v11 -->
+    <phrase id="insertcancelled" value="Insert cancelled" />
+    <phrase id="insertfailed" value="Insert failed" client="1" />
+    <phrase id="insertlink" value="Insert" class="fas fa-check ew-icon" />
+    <!-- v2019 -->
+    <phrase id="insertsuccess" value="Insert succeeded" />
+    <phrase id="invalidemail" value="Invalid Email" />
+    <phrase id="invalidfield" value="Invalid Field" />
+    <phrase id="invalidkeyvalue" value="Invalid key value" />
+    <phrase id="invalidrecord" value="Invalid Record! Key is null" client="1" />
+    <phrase id="invalidpostrequest" value="Invalid post request" />
+    <!-- v11 -->
+    <phrase id="invalidparameter" value="Invalid Parameter" />
+    <phrase id="invalidpassword" value="Invalid Password" />
+    <phrase id="invalidnewpassword" value="Invalid New Password" />
+    <phrase id="invaliduidpwd" value="Incorrect user name or password" />
+    <phrase id="keep" value="Keep" />
+    <phrase id="language" value="Language" />
+    <phrase id="learnmore" value="Learn More" />
+    <!-- v2019 -->
+    <phrase id="lightboxtitle" value=" " client="1" />
+    <!-- v11 -->
+    <phrase id="lightboxcurrent" value="image {current} of {total}" client="1" />
+    <!-- Note: DO NOT translate "{current}" and "{total}" -->
+    <!-- v11 -->
+    <phrase id="lightboxprevious" value="previous" client="1" />
+    <!-- v11 -->
+    <phrase id="lightboxnext" value="next" client="1" />
+    <!-- v11 -->
+    <phrase id="lightboxclose" value="close" client="1" />
+    <!-- v11 -->
+    <phrase id="lightboxxhrerror" value="This content failed to load." client="1" />
+    <!-- v11 -->
+    <phrase id="lightboximgerror" value="This image failed to load." client="1" />
+    <!-- v11 -->
+    <phrase id="list" value="" />
+    <!-- v2019 -->
+    <phrase id="listactionbutton" value="Actions" class="fas fa-ellipsis-v" />
+    <!-- v2020 -->
+    <phrase id="loading" value="Loading..." client="1" />
+    <phrase id="login" value="Login" client="1" />
+    <!-- v2020 -->
+    <phrase id="logincancelled" value="Login cancelled" />
+    <phrase id="loginfacebook" value="Login with Facebook" />
+    <!-- v2018 -->
+    <phrase id="loginfailed" value="Login with %p failed" />
+    <!-- v2018 -->
+    <phrase id="logingoogle" value="Login with Google" />
+    <!-- v2018 -->
+    <phrase id="loginmsg" value="Sign in to start your session" />
+    <!-- v2019 -->
+    <phrase id="loginoptions" value="Options" />
+    <!-- v11 -->
+    <phrase id="loginor" value="- OR -" />
+    <!-- v2018 -->
+    <phrase id="loginpage" value="Login" />
+    <phrase id="logout" value="Logout" />
+    <phrase id="lookuplink" value="Lookup - %s" class="fas fa-search ew-icon" />
+    <!-- v2019 -->
+    <phrase id="masterdetailcopylink" value="Master/Detail Copy" class="icon-md-copy ew-icon" />
+    <!-- v11 -->
+    <phrase id="masterdetaileditlink" value="Master/Detail Edit" class="icon-md-edit ew-icon" />
+    <!-- v11 -->
+    <phrase id="masterdetaillistlink" value="Detail List" class="icon-table ew-icon" />
+    <!-- v11 -->
+    <phrase id="masterdetailviewlink" value="Master/Detail View" class="icon-md-view ew-icon" />
+    <!-- v11 -->
+    <phrase id="masterrecord" value="Master Record: " />
+    <phrase id="maxfilesize" value="Max. file size (%s bytes) exceeded." client="1" />
+    <phrase id="messageok" value="OK" client="1" />
+    <phrase id="midnight" value="midnight" client="1" />
+    <!-- v2017 -->
+    <phrase id="mismatchpassword" value="Mismatch Password" client="1" />
+    <phrase id="missinglookuptablename" value="Missing lookup table name" />
+    <phrase id="missingdisplayfieldname" value="Missing display field name" />
+    <phrase id="missingdisplayfieldvalue" value="Missing display field value" />
+    <phrase id="missingpdfobject" value="Missing PDFObject" client="1" />
+    <!-- v2020 -->
+    <phrase id="missinguserlevelid" value="Missing User Level ID" />
+    <phrase id="missinguserlevelname" value="Missing User Level name" />
+    <phrase id="mobilemenu" value="Menu" />
+    <phrase id="monthjan" value="Jan" />
+    <!-- v2020 (report) -->
+    <phrase id="monthfeb" value="Feb" />
+    <!-- v2020 (report) -->
+    <phrase id="monthmar" value="Mar" />
+    <!-- v2020 (report) -->
+    <phrase id="monthapr" value="Apr" />
+    <!-- v2020 (report) -->
+    <phrase id="monthmay" value="May" />
+    <!-- v2020 (report) -->
+    <phrase id="monthjun" value="Jun" />
+    <!-- v2020 (report) -->
+    <phrase id="monthjul" value="Jul" />
+    <!-- v2020 (report) -->
+    <phrase id="monthaug" value="Aug" />
+    <!-- v2020 (report) -->
+    <phrase id="monthsep" value="Sep" />
+    <!-- v2020 (report) -->
+    <phrase id="monthoct" value="Oct" />
+    <!-- v2020 (report) -->
+    <phrase id="monthnov" value="Nov" />
+    <!-- v2020 (report) -->
+    <phrase id="monthdec" value="Dec" />
+    <!-- v2020 (report) -->
+    <phrase id="more" value="More" client="1" />
+    <!-- v2018 -->
+    <phrase id="multiplemasterdetails" value="Master/Detail" class="icon-master-detail ew-icon" />
+    <!-- v11 -->
+    <phrase id="new" value="New" />
+    <phrase id="newpassword" value="New Password" />
+    <phrase id="newvalue" value="New value" />
+    <!-- v12 -->
+    <phrase id="next" value="Next" client="1" />
+    <!-- v12 -->
+    <phrase id="noaddrecord" value="No records to be added" client="1" />
+    <phrase id="nofieldselected" value="No field selected for update" client="1" />
+    <phrase id="nopermission" value="You do not have permission to access %s." />
+    <!-- v12.0.6 -->
+    <phrase id="noaddpermission" value="You do not have permission to add the record." />
+    <phrase id="nochartdata" value="No data to display" client="1" />
+    <!-- v2020 -->
+    <phrase id="nodeletepermission" value="You do not have permission to delete the record." />
+    <phrase id="nodistinctcolvals" value="No distinct column values for SQL: " />
+    <!-- v2020 (report) -->
+    <phrase id="noeditpermission" value="You do not have permission to edit the record." />
+    <phrase id="noon" value="noon" />
+    <!-- v2017 -->
+    <phrase id="norecord" value="No records found" client="1" />
+    <!-- v2017 -->
+    <phrase id="norecordforkey" value="No record found for key = " />
+    <phrase id="noreportorcharts" value="No report or charts are available for this page." />
+    <!-- v2020 (report) -->
+    <phrase id="norecordselected" value="No records selected" client="1" />
+    <phrase id="notablegenerated" value="No tables generated" />
+    <phrase id="nouserlevel" value="No user level settings." />
+    <phrase id="nulllabel" value="(Null)" />
+    <!-- v2020 (report) -->
+    <phrase id="of" value="of" client="1" />
+    <!-- v2017 -->
+    <phrase id="old" value="Old" />
+    <phrase id="oldpassword" value="Old Password" />
+    <phrase id="optionalreadyexist" value="Option already exists" />
+    <phrase id="overwritebtn" value="Overwrite" client="1" />
+    <!-- v2017 -->
+    <phrase id="overwritelink" value="Overwrite" />
+    <phrase id="page" value="Page" client="1" />
+    <!-- v2017 -->
+    <phrase id="pagerfirst" value="First" />
+    <phrase id="pagerlast" value="Last" />
+    <phrase id="pagernext" value="Next" />
+    <phrase id="pagerprevious" value="Previous" />
+    <phrase id="password" value="Password" />
+    <phrase id="passwordmask" value="********" />
+    <!-- v12 -->
+    <phrase id="passwordrequest" value="Password Request" />
+    <phrase id="passwordchanged" value="Password Changed" />
+    <phrase id="passwordexpired" value="Password Expired. Please change password." />
+    <phrase id="passwordstrength" value="Strength: %p" client="1" />
+    <!-- v12 -->
+    <phrase id="passwordtoosimple" value="Your password is too simple" client="1" />
+    <!-- v12 -->
+    <phrase id="permission" value="Permissions" class="icon-user ew-icon" />
+    <!-- v11 -->
+    <phrase id="permissionadd" value="Add/Copy" client="1" />
+    <!-- v2020 -->
+    <phrase id="permissionadmin" value="Admin" client="1" />
+    <!-- v2019 -->
+    <phrase id="permissiondelete" value="Delete" client="1" />
+    <!-- v2018 -->
+    <phrase id="permissionedit" value="Edit" client="1" />
+    <!-- v2018 -->
+    <phrase id="permissionimport" value="Import" client="1" />
+    <!-- v2020 -->
+    <phrase id="permissionlistsearchview" value="List/Search/View" client="1" />
+    <!-- v2018 -->
+    <phrase id="permissionlist" value="List" client="1" />
+    <!-- v2018 -->
+    <phrase id="permissionlookup" value="Lookup" client="1" />
+    <!-- v2020 -->
+    <phrase id="permissionsearch" value="Search" client="1" />
+    <!-- v2018 -->
+    <phrase id="permissionview" value="View" client="1" />
+    <!-- v2018 -->
+    <phrase id="personaldatabtn" value="Personal Data" />
+    <!-- v2019 -->
+    <phrase id="personaldatacontent" value="Your account contains personal data that you have given us. This page allows you to download or delete that data." />
+    <!-- v2019 -->
+    <phrase id="personaldatadeletefailure" value="Unexpected error occurred deleting user" />
+    <!-- v2019 -->
+    <phrase id="personaldatadeletesuccess" value="Personal data deleted successfully" />
+    <!-- v2019 -->
+    <phrase id="personaldatatitle" value="Personal Data" />
+    <!-- v2019 -->
+    <phrase id="personaldatawarning" value="Deleting this data will permanently remove your account, and this cannot be recovered." />
+    <!-- v2019 -->
+    <phrase id="pickdate" value="Pick a date" />
+    <phrase id="pleaseselect" value="Please select" client="1" />
+    <!-- v12 -->
+    <phrase id="pleasewait" value="Please wait..." client="1" />
+    <phrase id="prev" value="Prev" client="1" />
+    <!-- v12 -->
+    <phrase id="primarykeyunspecified" value="Primary key unspecified" />
+    <phrase id="printerfriendly" value="Printer Friendly" class="icon-print ew-icon" />
+    <!-- v11 -->
+    <phrase id="printerfriendlytext" value="Printer Friendly" />
+    <phrase id="privacypolicy" value="Privacy Policy" />
+    <!-- v2019 -->
+    <phrase id="privacypolicycontent" value="Use this page to detail your site's privacy policy." />
+    <!-- v2019 -->
+    <phrase id="qtr1" value="1st Quarter" />
+    <!-- v2020 (report) -->
+    <phrase id="qtr2" value="2nd Quarter" />
+    <!-- v2020 (report) -->
+    <phrase id="qtr3" value="3rd Quarter" />
+    <!-- v2020 (report) -->
+    <phrase id="qtr4" value="4th Quarter" />
+    <!-- v2020 (report) -->
+    <phrase id="quicksearch" value="Quick Search" />
+    <phrase id="quicksearchbtn" value="Search" />
+    <phrase id="quicksearchauto" value="Auto" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchautoshort" value="" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchall" value="All keywords" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchallshort" value="All" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchany" value="Any keywords" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchanyshort" value="Any" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchexact" value="Exact match" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchexactshort" value="Exact" client="1" />
+    <!-- v11 -->
+    <phrase id="record" value="Records" client="1" />
+    <!-- v2017 -->
+    <phrase id="recordchangedbyotheruser" value="Data has been changed by other user. Click [Reload] to retrieve the changed data (your data in the form will be overwritten) or click [Overwrite] to overwrite the changed data." />
+    <phrase id="recorddeleted" value="record(s) deleted" />
+    <phrase id="recordinserted" value="record(s) inserted" />
+    <phrase id="recordupdated" value="record(s) updated" />
+    <phrase id="recordsperpage" value="Page size" client="1" />
+    <!-- v2017 -->
+    <phrase id="register" value="Register" client="1" />
+    <!-- v2020 -->
+    <phrase id="registerbtn" value="Register" />
+    <phrase id="registersuccess" value="Registration succeeded" />
+    <phrase id="registersuccessactivate" value="Registration succeeded. An email has been sent to your email address, please click the link in the email to activate your account." />
+    <phrase id="registerpage" value="Registration" />
+    <phrase id="relatedrecordrequired" value="You cannot add or update a record because the foreign key value does not exist in the master table '%t'" />
+    <phrase id="relatedrecordexists" value="You cannot delete a record because related records exist in the detail table '%t'" />
+    <phrase id="reloadbtn" value="Reload" client="1" />
+    <!-- v2017 -->
+    <phrase id="reloadlink" value="Reload" />
+    <phrase id="rememberme" value="Remember me" />
+    <phrase id="remove" value="Remove" />
+    <phrase id="replace" value="Replace" />
+    <phrase id="report" value="Report" />
+    <phrase id="resetpwd" value="Reset Password" />
+    <!-- v2020 -->
+    <phrase id="resetpwdmsg" value="Reset Password" />
+    <!-- v2020 -->
+    <phrase id="resendregisteremailbtn" value="Resend registration email" />
+    <!-- v12 -->
+    <phrase id="resendregisteremailsuccess" value="Registration email for user '%u' has been re-sent" />
+    <!-- v12 -->
+    <phrase id="resendregisteremailfailure" value="Failed to re-send register email for user '%u' has failed" />
+    <!-- v12 -->
+    <phrase id="reset" value="Reset" />
+    <phrase id="resetallfilter" value="Reset all filters" class="icon-reset-search ew-icon" />
+    <!-- v2020 (report) -->
+    <phrase id="resetconcurrentuserbtn" value="Reset concurrent user session" />
+    <!-- v12 -->
+    <phrase id="resetconcurrentusersuccess" value="Session for user '%u' has been reset" />
+    <!-- v12 -->
+    <phrase id="resetconcurrentuserfailure" value="Failed to reset session for user '%u'" />
+    <!-- v12 -->
+    <phrase id="resetloginretrybtn" value="Reset login retry count" />
+    <!-- v12 -->
+    <phrase id="resetloginretrysuccess" value="Login retry count for user '%u' has been reset" />
+    <!-- v12 -->
+    <phrase id="resetloginretryfailure" value="Failed to reset login retry count for user '%u'" />
+    <!-- v12 -->
+    <phrase id="resetsearchbtn" value="Reset" class="icon-reset-search ew-icon" />
+    <!-- v11 -->
+    <phrase id="resetsearch" value="Reset" />
+    <phrase id="rptavg" value="AVG" />
+    <!-- v2020 (report) -->
+    <phrase id="rptcnt" value="COUNT" />
+    <!-- v2020 (report) -->
+    <phrase id="rptdtlrec" value=" detail records" />
+    <!-- v2020 (report) -->
+    <phrase id="rptgrandsummary" value="Grand Summary" />
+    <!-- v2020 (report) -->
+    <phrase id="rptmax" value="MAX" />
+    <!-- v2020 (report) -->
+    <phrase id="rptmin" value="MIN" />
+    <!-- v2020 (report) -->
+    <phrase id="rptpagesummary" value="Page Summary" />
+    <!-- v2020 (report) -->
+    <phrase id="rptsum" value="SUM" />
+    <!-- v2020 (report) -->
+    <phrase id="rptsumhead" value="Summary for %c: %v" />
+    <!-- v2020 (report) -->
+    <phrase id="savebtn" value="Save" client="1" />
+    <!-- v2018 -->
+    <phrase id="savecurrentfilter" value="Save current filter" />
+    <!-- v12 -->
+    <phrase id="saveusername" value="Save my user name" />
+    <!-- Deprecated since v2018 -->
+    <phrase id="search" value="Search" client="1" />
+    <!-- v2017 -->
+    <phrase id="searchbtn" value="Search" client="1" />
+    <!-- v2018 -->
+    <phrase id="searchlink" value="Search" class="fas fa-search ew-icon" />
+    <!-- v2019 -->
+    <phrase id="searchpanel" value="Search Panel" />
+    <!-- v11 -->
+    <phrase id="selectbtn" value="Select" client="1" />
+    <!-- v2017 -->
+    <phrase id="sendemailbtn" value="Send" />
+    <phrase id="sendemailsuccess" value="Email sent successfully" client="1" />
+    <phrase id="sendpwd" value="Send" client="1" />
+    <!-- v2020 -->
+    <phrase id="sequencenumber" value="%s." />
+    <phrase id="servercommunicationerror" value="An error occured while communicating to the server." />
+    <!-- v2017 -->
+    <phrase id="sessionwillexpire" value="Your session will expire in %s seconds. Click OK to continue your session." client="1" />
+    <!-- v12 -->
+    <phrase id="sessionexpired" value="Your session has expired." client="1" />
+    <!-- v12 -->
+    <phrase id="setpasswordexpiredbtn" value="Set password expired" />
+    <!-- v12 -->
+    <phrase id="setpasswordexpiredsuccess" value="Password for user '%u' has been set as expired" />
+    <!-- v12 -->
+    <phrase id="setpasswordexpiredfailure" value="Failed to set password for user '%u' as expired" />
+    <!-- v12 -->
+    <phrase id="showallbtn" value="Show all" class="icon-reset-search ew-icon" />
+    <!-- v11 -->
+    <phrase id="showall" value="Show all" />
+    <!-- v11 -->
+    <phrase id="srchlegend" value="" />
+    <phrase id="success" value="Success" client="1" />
+    <!-- v2020 -->
+    <phrase id="summary" value="Summary" />
+    <!-- v2020 (report) -->
+    <phrase id="summarycolon" value=": " />
+    <!-- v2020 (report) -->
+    <phrase id="table" value="TABLE" />
+    <phrase id="tableorview" value="Tables" client="1" />
+    <!-- v2018 -->
+    <phrase id="tasks" value="Tasks" />
+    <!-- v2020 (report) -->
+    <phrase id="tbltypetable" value="Table: " />
+    <phrase id="tbltypeview" value="View: " />
+    <phrase id="tbltypecustomview" value="Custom View: " />
+    <phrase id="tbltypereport" value="Report: " />
+    <phrase id="to" value="to" />
+    <phrase id="top" value="Top" />
+    <!-- v2020 (report) -->
+    <phrase id="total" value="Total" />
+    <phrase id="unauthorizeduserid" value="The current user (%c) is not authorized to assign the user ID (%u)." />
+    <phrase id="unauthorizedparentuserid" value="The current user (%c) is not authorized to assign the parent user ID (%p)." />
+    <phrase id="unauthorizedmasteruserid" value="The current user (%c) is not authorized to insert the record. Master filter: %f" />
+    <phrase id="update" value="Update" />
+    <phrase id="updatebtn" value="Update" client="1" />
+    <!-- v2017 -->
+    <phrase id="updatecancelled" value="Update cancelled" />
+    <phrase id="updatefailed" value="Update failed" />
+    <phrase id="updatelink" value="Update" class="fas fa-check ew-icon" />
+    <!-- v2019 -->
+    <phrase id="updateselectall" value="Select all" />
+    <!-- v11 -->
+    <phrase id="updateselectedlink" value="Update Selected Records" class="icon-edit ew-icon" />
+    <!-- v11 -->
+    <phrase id="updatesuccess" value="Update succeeded" />
+    <phrase id="uploading" value="Uploading..." client="1" />
+    <phrase id="uploadstart" value="Start" client="1" />
+    <phrase id="uploadcancel" value="Cancel" client="1" />
+    <phrase id="uploaddelete" value="Delete" client="1" />
+    <phrase id="uploadoverwrite" value="Overwrite old file?" client="1" />
+    <phrase id="uploaderrmsg1" value="The uploaded file exceeds the upload_max_filesize directive in php.ini" />
+    <phrase id="uploaderrmsg2" value="The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form" />
+    <phrase id="uploaderrmsg3" value="The uploaded file was only partially uploaded" />
+    <phrase id="uploaderrmsg4" value="No file was uploaded" />
+    <phrase id="uploaderrmsg6" value="Missing a temporary folder" />
+    <phrase id="uploaderrmsg7" value="Failed to write file to disk" />
+    <phrase id="uploaderrmsg8" value="A PHP extension stopped the file upload" />
+    <phrase id="uploaderrmsgpostmaxsize" value="The uploaded file exceeds the post_max_size directive in php.ini" />
+    <phrase id="uploaderrmsgmaxfilesize" value="File is too big" client="1" />
+    <phrase id="uploaderrmsgminfilesize" value="File is too small" client="1" />
+    <phrase id="uploaderrmsgacceptfiletypes" value="File type not allowed" client="1" />
+    <phrase id="uploaderrmsgmaxnumberoffiles" value="Maximum number of files exceeded" client="1" />
+    <phrase id="uploaderrmsgmaxwidth" value="Image exceeds maximum width" />
+    <phrase id="uploaderrmsgminwidth" value="Image requires a minimum width" />
+    <phrase id="uploaderrmsgmaxheight" value="Image exceeds maximum height" />
+    <phrase id="uploaderrmsgminheight" value="Image requires a minimum height" />
+    <phrase id="uploaderrmsgmaxfilelength" value="Total length of file names exceeds field length" client="1" />
+    <phrase id="useradministrator" value="Administrator" client="1" />
+    <!-- v12 -->
+    <phrase id="useranonymous" value="Anonymous" client="1" />
+    <!-- v12 -->
+    <phrase id="userdefault" value="Default" client="1" />
+    <!-- v12 -->
+    <phrase id="useremail" value="Email" />
+    <phrase id="userexists" value="User already exists" />
+    <phrase id="userlevel" value="User Level: " />
+    <phrase id="userleveladministratorname" value="User level name for user level -1 must be 'Administrator'" client="1" />
+    <phrase id="userlevelanonymousname" value="User level name for user level -2 must be 'Anonymous'" client="1" />
+    <!-- v12 -->
+    <phrase id="userlevelpermission" value="User Level Permissions" />
+    <phrase id="userlevelidinteger" value="User Level ID must be integer" client="1" />
+    <phrase id="userleveldefaultname" value="User level name for user level 0 must be 'Default'" client="1" />
+    <phrase id="userlevelidincorrect" value="User defined User Level ID must be larger than 0" client="1" />
+    <phrase id="userlevelnameincorrect" value="User defined User Level name cannot be 'Administrator' or 'Default'" client="1" />
+    <phrase id="userloggedin" value="User '%u' already logged in" />
+    <phrase id="username" value="User Name" />
+    <phrase id="usernotfound" value="User '%u' not found" />
+    <!-- v2018 -->
+    <phrase id="userprofilecorrupted" value="User profile is corrupted. Please logout and login again" />
+    <phrase id="valuenotexist" value="Value does not exist" client="1" />
+    <!-- v11 -->
+    <phrase id="view" value="View" />
+    <phrase id="viewimagegallery" value="Click to view image" />
+    <!-- v12 -->
+    <phrase id="viewlink" value="View" class="icon-view ew-icon" />
+    <!-- v11 -->
+    <phrase id="viewpageaddlink" value="Add" class="fas fa-plus ew-icon" />
+    <!-- v2019 -->
+    <phrase id="viewpagecopylink" value="Copy" class="icon-copy ew-icon" />
+    <!-- v11 -->
+    <phrase id="viewpagedeletelink" value="Delete" class="fas fa-trash ew-icon" />
+    <!-- v2019 -->
+    <phrase id="viewpagedetaillink" value="" />
+    <phrase id="viewpageeditlink" value="Edit" class="icon-edit ew-icon" />
+    <!-- v11 -->
+    <phrase id="warning" value="Warning" client="1" />
+    <!-- v2020 -->
+    <phrase id="week" value="Week" />
+    <!-- v2020 (report) -->
+    <phrase id="wrongfiletype" value="File type is not allowed." client="1" />
+    <phrase id="year" value="Year" />
+    <!-- v2020 (report) -->
+    <phrase id="=" value="&amp;nbsp;" />
+    <!-- v12 -->
+    <phrase id="equal" value="=" />
+    <!-- v12 -->
+    <phrase id="&lt;&gt;" value="&amp;lt;&amp;gt;" />
+    <phrase id="&lt;" value="&amp;lt;" />
+    <phrase id="&lt;=" value="&amp;lt;=" />
+    <phrase id="&gt;" value="&amp;gt;" />
+    <phrase id="&gt;=" value="&amp;gt;=" />
+    <phrase id="like" value="contains" />
+    <phrase id="not like" value="does not contain" />
+    <!-- v11.0.3 -->
+    <phrase id="starts with" value="starts with" />
+    <phrase id="ends with" value="ends with" />
+    <phrase id="is null" value="is null" />
+    <phrase id="is not null" value="is not null" />
+    <phrase id="between" value="between" />
+    <phrase id="and" value="and" />
+    <phrase id="or" value="or" />
+    <phrase id="am" value="AM" client="1" />
+    <!-- v2017 -->
+    <phrase id="pm" value="PM" client="1" />
+    <!-- v2017 -->
+    <!-- Menu Prefix/Suffix (v2020 (report)) -->
+    <phrase id="simplereportmenuitemprefix" value="" />
+    <phrase id="simplereportmenuitemsuffix" value="" />
+    <phrase id="detailsummaryreportmenuitemprefix" value="" />
+    <phrase id="detailsummaryreportmenuitemsuffix" value="" />
+    <phrase id="crosstabreportmenuitemprefix" value="" />
+    <phrase id="crosstabreportmenuitemsuffix" value="" />
+    <phrase id="chartreportmenuitemprefix" value="" />
+    <phrase id="chartreportmenuitemsuffix" value="" />
+    <!-- Advanced Filter (v2020 (report)) -->
+    <phrase id="future" value="Future" />
+    <phrase id="past" value="Past" />
+    <phrase id="last14days" value="Last 14 days" />
+    <phrase id="last30days" value="Last 30 days" />
+    <phrase id="last7days" value="Last 7 days" />
+    <phrase id="next14days" value="Next 14 days" />
+    <phrase id="next30days" value="Next 30 days" />
+    <phrase id="next7days" value="Next 7 days" />
+    <phrase id="today" value="Today" />
+    <phrase id="tomorrow" value="Tomorrow" />
+    <phrase id="yesterday" value="Yesterday" />
+    <phrase id="lastmonth" value="Last month" />
+    <phrase id="nextmonth" value="Next month" />
+    <phrase id="thismonth" value="This month" />
+    <phrase id="lasttwoweeks" value="Last two weeks" />
+    <phrase id="lastweek" value="Last week" />
+    <phrase id="nexttwoweeks" value="Next two weeks" />
+    <phrase id="nextweek" value="Next week" />
+    <phrase id="thisweek" value="This week" />
+    <phrase id="lastyear" value="Last year" />
+    <phrase id="nextyear" value="Next year" />
+    <phrase id="thisyear" value="This year" />
+  </global>
+  <project>
+    <phrase id="bodytitle" value="Water Resource Depart (National Hydrology Project)" />
+    <phrase id="footertext" value="&amp;copy;2023 Developed by jagdish.damania@samarthainfo.com" />
+    <menu id="47">
+      <phrase id="menutext" value="Reports" />
+    </menu>
+    <menu id="185">
+      <phrase id="menutext" value="Dashboard" />
+    </menu>
+    <menu id="25">
+      <phrase id="menutext" value="Data Collection Status (Subdivision/Datewise)" />
+    </menu>
+    <menu id="26">
+      <phrase id="menutext" value="Data Collection Status (Datewise)" />
+    </menu>
+    <menu id="145">
+      <phrase id="menutext" value="Top 10 Stations Reading" />
+    </menu>
+    <menu id="146">
+      <phrase id="menutext" value="Districtwise Rainfall Latest" />
+    </menu>
+    <menu id="306">
+      <phrase id="menutext" value="Station List" />
+    </menu>
+    <menu id="370">
+      <phrase id="menutext" value="Rainfall Reports" />
+    </menu>
+    <menu id="136">
+      <phrase id="menutext" value="Rainfall Report" />
+    </menu>
+    <menu id="296">
+      <phrase id="menutext" value="Rainfall Report (Staff)" />
+    </menu>
+    <menu id="297">
+      <phrase id="menutext" value="Rainfall Report (Subdivision)" />
+    </menu>
+    <menu id="293">
+      <phrase id="menutext" value="Exception Reports" />
+    </menu>
+    <menu id="138">
+      <phrase id="menutext" value="Invalid Messages" />
+    </menu>
+    <menu id="116">
+      <phrase id="menutext" value="Defaulter List" />
+    </menu>
+    <menu id="252">
+      <phrase id="menutext" value="Duplicate Mobile Number" />
+    </menu>
+    <menu id="295">
+      <phrase id="menutext" value="Mobile Number Not Mapped" />
+    </menu>
+    <menu id="140">
+      <phrase id="menutext" value="SMS Analyser" />
+    </menu>
+    <menu id="141">
+      <phrase id="menutext" value="SMS Analyser By Subdivision" />
+    </menu>
+    <menu id="17">
+      <phrase id="menutext" value="Configuration (Data Entry)" />
+    </menu>
+    <menu id="80">
+      <phrase id="menutext" value="Rainfall Data By Field Staff (Mobile)" />
+    </menu>
+    <menu id="304">
+      <phrase id="menutext" value="Rainfall Entry (Staff)" />
+    </menu>
+    <menu id="305">
+      <phrase id="menutext" value="Rainfall Entry (Subdivision)" />
+    </menu>
+    <menu id="251">
+      <phrase id="menutext" value="Validate SMS Data" />
+    </menu>
+    <menu id="303">
+      <phrase id="menutext" value="HMS Rainfall Data" />
+    </menu>
+    <menu id="294">
+      <phrase id="menutext" value="Monthly Rainfall Entry" />
+    </menu>
+    <menu id="301">
+      <phrase id="menutext" value="Monthly Rainfall Entry (Day-Row)" />
+    </menu>
+    <menu id="298">
+      <phrase id="menutext" value="Monthly Rainfall Entry By Subdivision" />
+    </menu>
+    <menu id="16">
+      <phrase id="menutext" value="Rainfall Data (SMS)" />
+    </menu>
+    <menu id="18">
+      <phrase id="menutext" value="Data Entry" />
+    </menu>
+    <menu id="22">
+      <phrase id="menutext" value="Rainfall Data By WRDO Staff (Full Access)" />
+    </menu>
+    <menu id="79">
+      <phrase id="menutext" value="SMS Messages Dump" />
+    </menu>
+    <menu id="135">
+      <phrase id="menutext" value="WRDO Admin" />
+    </menu>
+    <menu id="7">
+      <phrase id="menutext" value="Stations" />
+    </menu>
+    <menu id="11">
+      <phrase id="menutext" value="User List" />
+    </menu>
+    <menu id="9">
+      <phrase id="menutext" value="Sub Divisions" />
+    </menu>
+    <menu id="299">
+      <phrase id="menutext" value="Change of Mobile Number for the station" />
+    </menu>
+    <menu id="82">
+      <phrase id="menutext" value="Station List by Mobile" />
+    </menu>
+    <menu id="144">
+      <phrase id="menutext" value="Create Default Entry for Date" />
+    </menu>
+    <menu id="78">
+      <phrase id="menutext" value="KSNDMC" />
+    </menu>
+    <menu id="51">
+      <phrase id="menutext" value="KSNDMC Rainfall Data" />
+    </menu>
+    <menu id="137">
+      <phrase id="menutext" value="DMC Report" />
+    </menu>
+    <menu id="50">
+      <phrase id="menutext" value="KSNDMC Rainfall Station Master" />
+    </menu>
+    <menu id="2">
+      <phrase id="menutext" value="Rainfall Data (DMC) Upload" />
+    </menu>
+    <menu id="435">
+      <phrase id="menutext" value="Application Admin" />
+    </menu>
+    <menu id="115">
+      <phrase id="menutext" value="Master" />
+    </menu>
+    <menu id="5">
+      <phrase id="menutext" value="Districts" />
+    </menu>
+    <menu id="10">
+      <phrase id="menutext" value="Talukas" />
+    </menu>
+    <menu id="8">
+      <phrase id="menutext" value="Sub-basins" />
+    </menu>
+    <menu id="3">
+      <phrase id="menutext" value="Basins" />
+    </menu>
+    <menu id="234">
+      <phrase id="menutext" value="Divisions" />
+    </menu>
+    <menu id="143">
+      <phrase id="menutext" value="Circles" />
+    </menu>
+    <menu id="371">
+      <phrase id="menutext" value="Dams" />
+    </menu>
+    <menu id="4">
+      <phrase id="menutext" value="Catchments" />
+    </menu>
+    <menu id="6">
+      <phrase id="menutext" value="Rivers" />
+    </menu>
+    <menu id="19">
+      <phrase id="menutext" value="User Management" />
+    </menu>
+    <menu id="12">
+      <phrase id="menutext" value="User Roles" />
+    </menu>
+    <menu id="81">
+      <phrase id="menutext" value="Roles Permissions" />
+    </menu>
+    <menu id="231">
+      <phrase id="menutext" value="Parameter Tables" />
+    </menu>
+    <menu id="24">
+      <phrase id="menutext" value="Entry Status Code" />
+    </menu>
+    <menu id="83">
+      <phrase id="menutext" value="Validated Code" />
+    </menu>
+    <menu id="186">
+      <phrase id="menutext" value="Is First Message" />
+    </menu>
+    <menu id="20">
+      <phrase id="menutext" value="Misc" />
+    </menu>
+    <menu id="142">
+      <phrase id="menutext" value="Archive Smsdata " />
+    </menu>
+    <menu id="1">
+      <phrase id="menutext" value="awaiteddata temp" />
+    </menu>
+    <menu id="302">
+      <phrase id="menutext" value="lkp station type" />
+    </menu>
+    <menu id="13">
+      <phrase id="menutext" value="New Stations" />
+    </menu>
+    <menu id="15">
+      <phrase id="menutext" value="oldstations" />
+    </menu>
+    <menu id="14">
+      <phrase id="menutext" value="newstationslist" />
+    </menu>
+    <menu id="139">
+      <phrase id="menutext" value="Smsdata First and Last Date" />
+    </menu>
+    <menu id="300">
+      <phrase id="menutext" value="lkp month id" />
+    </menu>
+    <menu id="250">
+      <phrase id="menutext" value="IMD" />
+    </menu>
+    <menu id="233">
+      <phrase id="menutext" value="IMD Daily Rainfall Data" />
+    </menu>
+    <menu id="232">
+      <phrase id="menutext" value="IMD Cummlative Rainfall Stats" />
+    </menu>
+    <table id="awaiteddata_temp">
+      <phrase id="tblcaption" value="awaiteddata temp" />
+      <field id="stationid">
+        <phrase id="fldcaption" value="Station Id" />
+      </field>
+      <field id="stationname">
+        <phrase id="fldcaption" value="Station Name" />
+      </field>
+      <field id="subdivision">
+        <phrase id="fldcaption" value="Sub Division" />
+      </field>
+      <field id="readingdate">
+        <phrase id="fldcaption" value="Reading Date" />
+      </field>
+      <field id="mobilenumber">
+        <phrase id="fldcaption" value="Mobile Number" />
+      </field>
+      <field id="newstationid">
+        <phrase id="fldcaption" value="New Station Id" />
+      </field>
+    </table>
+    <table id="cum_stats">
+      <phrase id="tblcaption" value="IMD Cummlative Rainfall Stats" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="obs_date">
+        <phrase id="fldcaption" value="Obs Date" />
+      </field>
+      <field id="code">
+        <phrase id="fldcaption" value="CODE" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="NAME" />
+      </field>
+      <field id="actutal_for_date">
+        <phrase id="fldcaption" value="Actutal for date" />
+      </field>
+      <field id="normal_for_date">
+        <phrase id="fldcaption" value="Normal for date" />
+      </field>
+      <field id="deviation_for_date">
+        <phrase id="fldcaption" value="Deviation for date" />
+      </field>
+      <field id="actutal_for_season_cum">
+        <phrase id="fldcaption" value="Actutal for season cum" />
+      </field>
+      <field id="normal_for_season_cum">
+        <phrase id="fldcaption" value="Normal for season cum" />
+      </field>
+      <field id="deviation_for_season_cum">
+        <phrase id="fldcaption" value="Deviation for season cum" />
+      </field>
+      <field id="file_name">
+        <phrase id="fldcaption" value="File Name" />
+      </field>
+      <field id="source_id">
+        <phrase id="fldcaption" value="Source ID" />
+      </field>
+    </table>
+    <table id="daily_rain">
+      <phrase id="tblcaption" value="IMD Daily Rainfall Data" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="obs_date">
+        <phrase id="fldcaption" value="Obs Date" />
+      </field>
+      <field id="rainfall_station_name">
+        <phrase id="fldcaption" value="RAINFALL STATION NAME" />
+      </field>
+      <field id="rainfall_in_mm">
+        <phrase id="fldcaption" value="Rainfall (in mm)" />
+      </field>
+      <field id="file_name">
+        <phrase id="fldcaption" value="File Name" />
+      </field>
+      <field id="source_id">
+        <phrase id="fldcaption" value="Source ID" />
+      </field>
+    </table>
+    <table id="dmcrainfalldata">
+      <phrase id="tblcaption" value="Rainfall Data (DMC) Upload" />
+      <field id="raingauge">
+        <phrase id="fldcaption" value="Raingauge" />
+      </field>
+      <field id="district">
+        <phrase id="fldcaption" value="District" />
+      </field>
+      <field id="taluk">
+        <phrase id="fldcaption" value="Taluk" />
+      </field>
+      <field id="station">
+        <phrase id="fldcaption" value="Station" />
+      </field>
+      <field id="rainfall_date">
+        <phrase id="fldcaption" value="Rain Fall Date" />
+      </field>
+      <field id="rainfall_time">
+        <phrase id="fldcaption" value="Rain Fall Time" />
+      </field>
+      <field id="rain">
+        <phrase id="fldcaption" value="Rain" />
+      </field>
+    </table>
+    <table id="lkp_isfirstmsg">
+      <phrase id="tblcaption" value="Is First Message" />
+      <field id="isfirstmsg">
+        <phrase id="fldcaption" value="is First Msg" />
+      </field>
+      <field id="isfirstmsgname">
+        <phrase id="fldcaption" value="is First Msg Name" />
+      </field>
+      <field id="is_station_allowed">
+        <phrase id="fldcaption" value="is station allowed" />
+      </field>
+      <field id="is_subdiv_allowed">
+        <phrase id="fldcaption" value="is subdiv allowed" />
+      </field>
+      <field id="is_circle_allowed">
+        <phrase id="fldcaption" value="is circle allowed" />
+      </field>
+      <field id="is_wrdo_allowed">
+        <phrase id="fldcaption" value="is WRDO allowed" />
+      </field>
+      <field id="record_count">
+        <phrase id="fldcaption" value="Record Count" />
+      </field>
+    </table>
+    <table id="lkp_month_id">
+      <phrase id="tblcaption" value="lkp month id" />
+      <field id="month_id">
+        <phrase id="fldcaption" value="month id" />
+      </field>
+      <field id="month_name">
+        <phrase id="fldcaption" value="month Name" />
+      </field>
+    </table>
+    <table id="lkp_station_type">
+      <phrase id="tblcaption" value="lkp station type" />
+      <field id="station_type">
+        <phrase id="fldcaption" value="station type" />
+      </field>
+      <field id="station_type_name">
+        <phrase id="fldcaption" value="station type name" />
+      </field>
+      <field id="record_count">
+        <phrase id="fldcaption" value="record count" />
+      </field>
+      <field id="station_type_name_kn">
+        <phrase id="fldcaption" value="station type name kn" />
+      </field>
+    </table>
+    <table id="lkp_status">
+      <phrase id="tblcaption" value="Entry Status Code" />
+      <field id="status">
+        <phrase id="fldcaption" value="obs Status" />
+        <phrase id="fldtagvalue1" value="Y" />
+        <phrase id="fldtagcaption1" value="Yes" />
+        <phrase id="fldtagvalue2" value="N" />
+        <phrase id="fldtagcaption2" value="No" />
+      </field>
+      <field id="statusname">
+        <phrase id="fldcaption" value="obs Status Name" />
+      </field>
+      <field id="is_station_allowed">
+        <phrase id="fldcaption" value="Allowed For station " />
+        <phrase id="fldtagvalue1" value="Y" />
+        <phrase id="fldtagcaption1" value="Yes" />
+        <phrase id="fldtagvalue2" value="N" />
+        <phrase id="fldtagcaption2" value="No" />
+      </field>
+      <field id="is_subdiv_allowed">
+        <phrase id="fldcaption" value="Allowed For Subdiv" />
+        <phrase id="fldtagvalue1" value="Y" />
+        <phrase id="fldtagcaption1" value="Yes" />
+        <phrase id="fldtagvalue2" value="N" />
+        <phrase id="fldtagcaption2" value="No" />
+      </field>
+      <field id="is_circle_allowed">
+        <phrase id="fldcaption" value="Allowed For Circle" />
+        <phrase id="fldtagvalue1" value="Y" />
+        <phrase id="fldtagcaption1" value="Yes" />
+        <phrase id="fldtagvalue2" value="N" />
+        <phrase id="fldtagcaption2" value="No" />
+      </field>
+      <field id="is_wrdo_allowed">
+        <phrase id="fldcaption" value="Allowed For WRDO" />
+        <phrase id="fldtagvalue1" value="Y" />
+        <phrase id="fldtagcaption1" value="Yes" />
+        <phrase id="fldtagvalue2" value="N" />
+        <phrase id="fldtagcaption2" value="No" />
+      </field>
+      <field id="record_count">
+        <phrase id="fldcaption" value="Record Count" />
+      </field>
+    </table>
+    <table id="lkp_tblsms_date">
+      <phrase id="tblcaption" value="Create Default Entry for Date" />
+      <field id="tblsms_date">
+        <phrase id="fldcaption" value="Create Default Entry for Date" />
+      </field>
+    </table>
+    <table id="lkp_validated">
+      <phrase id="tblcaption" value="Validated Code" />
+      <field id="validated">
+        <phrase id="fldcaption" value="validated" />
+      </field>
+      <field id="validatedname">
+        <phrase id="fldcaption" value="validated Name" />
+      </field>
+      <field id="is_station_allowed">
+        <phrase id="fldcaption" value="Allowed for Station?" />
+        <phrase id="fldtagvalue1" value="Y" />
+        <phrase id="fldtagcaption1" value="Yes (Allowed)" />
+        <phrase id="fldtagvalue2" value="N" />
+        <phrase id="fldtagcaption2" value="Not Allowed" />
+      </field>
+      <field id="is_subdiv_allowed">
+        <phrase id="fldcaption" value="Allowed for Subdiv?" />
+        <phrase id="fldtagvalue1" value="Y" />
+        <phrase id="fldtagcaption1" value="Yes (Allowed)" />
+        <phrase id="fldtagvalue2" value="N" />
+        <phrase id="fldtagcaption2" value="Not Allowed" />
+      </field>
+      <field id="is_circle_allowed">
+        <phrase id="fldcaption" value="Allowed for Circle Staff?" />
+        <phrase id="fldtagvalue1" value="Y" />
+        <phrase id="fldtagcaption1" value="Yes (Allowed)" />
+        <phrase id="fldtagvalue2" value="N" />
+        <phrase id="fldtagcaption2" value="Not Allowed" />
+      </field>
+      <field id="is_wrdo_allowed">
+        <phrase id="fldcaption" value="Allowed for WRDO Staff" />
+        <phrase id="fldtagvalue1" value="Y" />
+        <phrase id="fldtagcaption1" value="Yes (Allowed)" />
+        <phrase id="fldtagvalue2" value="N" />
+        <phrase id="fldtagcaption2" value="Not Allowed" />
+      </field>
+      <field id="record_count">
+        <phrase id="fldcaption" value="Record Count" />
+      </field>
+    </table>
+    <table id="master_basin">
+      <phrase id="tblcaption" value="Basins" />
+      <field id="basinid">
+        <phrase id="fldcaption" value="Basin Id" />
+      </field>
+      <field id="basinname">
+        <phrase id="fldcaption" value="Basin Name" />
+      </field>
+      <field id="basinname_kn">
+        <phrase id="fldcaption" value="Basin Name kn" />
+      </field>
+      <field id="basinname_hi">
+        <phrase id="fldcaption" value="Basin Name hi" />
+      </field>
+    </table>
+    <table id="master_circle">
+      <phrase id="tblcaption" value="Circles" />
+      <field id="circleid">
+        <phrase id="fldcaption" value="circle Id" />
+      </field>
+      <field id="circlename">
+        <phrase id="fldcaption" value="circle Name" />
+      </field>
+      <field id="circlename_kn">
+        <phrase id="fldcaption" value="circle Name kn" />
+      </field>
+      <field id="circlename_hi">
+        <phrase id="fldcaption" value="circle Name hi" />
+      </field>
+    </table>
+    <table id="master_damcatchup">
+      <phrase id="tblcaption" value="Catchments" />
+      <field id="catchupid">
+        <phrase id="fldcaption" value="Catch Up Id" />
+      </field>
+      <field id="catchupname">
+        <phrase id="fldcaption" value="Catch Up Name" />
+      </field>
+      <field id="catchupname_kn">
+        <phrase id="fldcaption" value="Catch Up Name kn" />
+      </field>
+      <field id="catchupname_hi">
+        <phrase id="fldcaption" value="Catch Up Name hi" />
+      </field>
+    </table>
+    <table id="master_district">
+      <phrase id="tblcaption" value="Districts" />
+      <field id="districtid">
+        <phrase id="fldcaption" value="District Id" />
+      </field>
+      <field id="districtname">
+        <phrase id="fldcaption" value="District Name" />
+      </field>
+      <field id="districtname_kn">
+        <phrase id="fldcaption" value="District Name kn" />
+      </field>
+      <field id="districtname_hi">
+        <phrase id="fldcaption" value="District Name hi" />
+      </field>
+    </table>
+    <table id="master_division">
+      <phrase id="tblcaption" value="Divisions" />
+      <field id="divisionid">
+        <phrase id="fldcaption" value="Division Id" />
+      </field>
+      <field id="divisionname">
+        <phrase id="fldcaption" value="Division Name" />
+      </field>
+      <field id="divisionname_kn">
+        <phrase id="fldcaption" value="Division Name In Kannada" />
+      </field>
+      <field id="divisionname_hi">
+        <phrase id="fldcaption" value="division Name hi" />
+      </field>
+      <field id="circleid">
+        <phrase id="fldcaption" value="Circle" />
+      </field>
+    </table>
+    <table id="master_river">
+      <phrase id="tblcaption" value="Rivers" />
+      <field id="riverid">
+        <phrase id="fldcaption" value="River Id" />
+      </field>
+      <field id="rivername">
+        <phrase id="fldcaption" value="River Name" />
+      </field>
+      <field id="rivername_kn">
+        <phrase id="fldcaption" value="River Name kn" />
+      </field>
+      <field id="rivername_hi">
+        <phrase id="fldcaption" value="River Name hi" />
+      </field>
+    </table>
+    <table id="master_station">
+      <phrase id="tblcaption" value="Stations" />
+      <phrase id="tblpagecaption1" value="Station Info" />
+      <phrase id="tblpagecaption2" value="River/Reservoir" />
+      <phrase id="tblpagecaption3" value="Display Only" />
+      <phrase id="tblpagecaption4" value="Misc" />
+      <field id="stationid">
+        <phrase id="fldcaption" value="Station ID" />
+      </field>
+      <field id="subdivisionid">
+        <phrase id="fldcaption" value="Sub Division" />
+      </field>
+      <field id="stationname">
+        <phrase id="fldcaption" value="Station Name" />
+      </field>
+      <field id="stationname_kn">
+        <phrase id="fldcaption" value="Station Name(ಕನ್ನಡ)" />
+      </field>
+      <field id="mobilenumber">
+        <phrase id="fldcaption" value="Mobile Number" />
+      </field>
+      <field id="longitude">
+        <phrase id="fldcaption" value="Longitude" />
+        <phrase id="flderrmsg" value="Valid Range 74 to 78.5" />
+      </field>
+      <field id="latitude">
+        <phrase id="fldcaption" value="Latitude" />
+        <phrase id="flderrmsg" value="Valid Range 11.5 to 18.5" />
+      </field>
+      <field id="altitude_msl_in_mtrs">
+        <phrase id="fldcaption" value="Altitude Above MSL in Meters" />
+      </field>
+      <field id="station_type">
+        <phrase id="fldcaption" value="Station Type" />
+      </field>
+      <field id="isactive">
+        <phrase id="fldcaption" value="Is Active" />
+        <phrase id="fldtagvalue1" value="Y" />
+        <phrase id="fldtagcaption1" value="Active" />
+        <phrase id="fldtagvalue2" value="N" />
+        <phrase id="fldtagcaption2" value="Not Active" />
+      </field>
+      <field id="last_active_date">
+        <phrase id="fldcaption" value="Active till date" />
+      </field>
+      <field id="districtid">
+        <phrase id="fldcaption" value="District" />
+      </field>
+      <field id="talukid">
+        <phrase id="fldcaption" value="Taluk" />
+      </field>
+      <field id="basinid">
+        <phrase id="fldcaption" value="Basin" />
+      </field>
+      <field id="subbasinid">
+        <phrase id="fldcaption" value="Sub Basin" />
+      </field>
+      <field id="catchupid">
+        <phrase id="fldcaption" value="Catchment" />
+      </field>
+      <field id="pic">
+        <phrase id="fldcaption" value="NSDL Reservior" />
+      </field>
+      <field id="riverid">
+        <phrase id="fldcaption" value="River Id" />
+      </field>
+      <field id="address">
+        <phrase id="fldcaption" value="Address" />
+      </field>
+      <field id="max_rainfall_date">
+        <phrase id="fldcaption" value="Maximum Rainfall Reported On Date" />
+      </field>
+      <field id="max_rainfall">
+        <phrase id="fldcaption" value="Maximum Rainfall Reported" />
+      </field>
+      <field id="last_reading_date">
+        <phrase id="fldcaption" value="Latest Rreading date" />
+      </field>
+      <field id="first_reading_date">
+        <phrase id="fldcaption" value="First Reading date" />
+      </field>
+      <field id="no_of_manual_entry">
+        <phrase id="fldcaption" value="No of Manual Entry" />
+      </field>
+      <field id="no_of_sms">
+        <phrase id="fldcaption" value="No of SMS Received" />
+      </field>
+      <field id="newstationcode">
+        <phrase id="fldcaption" value="New Station Code" />
+      </field>
+      <field id="divisionid">
+        <phrase id="fldcaption" value="Division Id" />
+      </field>
+      <field id="stationsetup">
+        <phrase id="fldcaption" value="Station Setup" />
+      </field>
+      <field id="stationname_hi">
+        <phrase id="fldcaption" value="Station Name hi" />
+      </field>
+    </table>
+    <table id="master_subbasin">
+      <phrase id="tblcaption" value="Sub-basins" />
+      <field id="subbasinid">
+        <phrase id="fldcaption" value="Sub Basin Id" />
+      </field>
+      <field id="subbasinname">
+        <phrase id="fldcaption" value="Sub Basin Name" />
+      </field>
+      <field id="subbasinname_kn">
+        <phrase id="fldcaption" value="Sub Basin Name kn" />
+      </field>
+      <field id="subbasinname_hi">
+        <phrase id="fldcaption" value="Sub Basin Name hi" />
+      </field>
+      <field id="basinid">
+        <phrase id="fldcaption" value="Basin Id" />
+      </field>
+    </table>
+    <table id="master_subdivision">
+      <phrase id="tblcaption" value="Sub Divisions" />
+      <field id="subdivisionid">
+        <phrase id="fldcaption" value="Sub Division Id" />
+      </field>
+      <field id="subdivisionname">
+        <phrase id="fldcaption" value="Sub Division Name" />
+      </field>
+      <field id="subdivisionname_kn">
+        <phrase id="fldcaption" value="Sub Division Name kn" />
+      </field>
+      <field id="subdivisionname_hi">
+        <phrase id="fldcaption" value="Sub Division Name hi" />
+      </field>
+      <field id="divisionid">
+        <phrase id="fldcaption" value="divisionid" />
+      </field>
+      <field id="circleid">
+        <phrase id="fldcaption" value="Circle" />
+      </field>
+      <field id="talukid">
+        <phrase id="fldcaption" value="Division" />
+      </field>
+    </table>
+    <table id="master_taluk">
+      <phrase id="tblcaption" value="Talukas" />
+      <field id="talukid">
+        <phrase id="fldcaption" value="Taluk Id" />
+      </field>
+      <field id="talukname">
+        <phrase id="fldcaption" value="Taluk Name" />
+      </field>
+      <field id="talukname_kn">
+        <phrase id="fldcaption" value="Taluk Name kn" />
+      </field>
+      <field id="talukname_hi">
+        <phrase id="fldcaption" value="Taluk Name hi" />
+      </field>
+      <field id="districtid">
+        <phrase id="fldcaption" value="District Id" />
+      </field>
+    </table>
+    <table id="master_user">
+      <phrase id="tblcaption" value="User" />
+      <field id="_userid">
+        <phrase id="fldcaption" value="User Id" />
+      </field>
+      <field id="username">
+        <phrase id="fldcaption" value="User Name" />
+      </field>
+      <field id="useraddress">
+        <phrase id="fldcaption" value="User Address" />
+      </field>
+      <field id="stationid">
+        <phrase id="fldcaption" value="Station Id" />
+      </field>
+      <field id="talukid">
+        <phrase id="fldcaption" value="Taluk Id" />
+      </field>
+      <field id="districtid">
+        <phrase id="fldcaption" value="District Id" />
+      </field>
+      <field id="subdivsionid">
+        <phrase id="fldcaption" value="Sub Divsion Id" />
+      </field>
+      <field id="divisionid">
+        <phrase id="fldcaption" value="Division Id" />
+      </field>
+      <field id="roleid">
+        <phrase id="fldcaption" value="Role Id" />
+        <phrase id="fldtagvalue1" value="-2" />
+        <phrase id="fldtagcaption1" value="Anonymous" />
+        <phrase id="fldtagvalue2" value="-1" />
+        <phrase id="fldtagcaption2" value="Administrator" />
+        <phrase id="fldtagvalue3" value="0" />
+        <phrase id="fldtagcaption3" value="Default" />
+      </field>
+      <field id="userpassword">
+        <phrase id="fldcaption" value="User Password" />
+      </field>
+      <field id="useremail">
+        <phrase id="fldcaption" value="User Email" />
+      </field>
+      <field id="usermobilenumber">
+        <phrase id="fldcaption" value="User Mobile Number" />
+      </field>
+      <field id="_userprofile">
+        <phrase id="fldcaption" value="User Profile" />
+      </field>
+    </table>
+    <table id="master_user_permission">
+      <phrase id="tblcaption" value="Roles Permissions" />
+      <field id="userlevelid">
+        <phrase id="fldcaption" value="userlevelid" />
+      </field>
+      <field id="_tablename">
+        <phrase id="fldcaption" value="tablename" />
+      </field>
+      <field id="permission">
+        <phrase id="fldcaption" value="permission" />
+      </field>
+    </table>
+    <table id="master_user_roles">
+      <phrase id="tblcaption" value="User Roles" />
+      <field id="roleid">
+        <phrase id="fldcaption" value="Role Id" />
+      </field>
+      <field id="rolename">
+        <phrase id="fldcaption" value="Role Name" />
+      </field>
+    </table>
+    <table id="mst_ksndmc_station">
+      <phrase id="tblcaption" value="KSNDMC Rainfall Station Master" />
+      <field id="raingauge_id">
+        <phrase id="fldcaption" value="Raingauge id" />
+      </field>
+      <field id="district_name">
+        <phrase id="fldcaption" value="District Name" />
+      </field>
+      <field id="taluka_name">
+        <phrase id="fldcaption" value="Taluka Name" />
+      </field>
+      <field id="station_name">
+        <phrase id="fldcaption" value="Station Name" />
+      </field>
+      <field id="station_latitude">
+        <phrase id="fldcaption" value="Station Latitude" />
+      </field>
+      <field id="station_longitude">
+        <phrase id="fldcaption" value="Station Longitude" />
+      </field>
+      <field id="kgis_district_id">
+        <phrase id="fldcaption" value="kgis district id" />
+      </field>
+      <field id="kgis_taluka_id">
+        <phrase id="fldcaption" value="kgis taluka id" />
+      </field>
+      <field id="kgis_hobli_id">
+        <phrase id="fldcaption" value="kgis hobli id" />
+      </field>
+      <field id="kgis_village_id">
+        <phrase id="fldcaption" value="kgis village id" />
+      </field>
+      <field id="kwris_basin_id">
+        <phrase id="fldcaption" value="kwris basin id" />
+      </field>
+      <field id="kwris_subbasin_id">
+        <phrase id="fldcaption" value="kwris subbasin id" />
+      </field>
+    </table>
+    <table id="mst_mobile_staion_link">
+      <phrase id="tblcaption" value="Change of Mobile Number for the station" />
+      <field id="mobile_staion_link_id">
+        <phrase id="fldcaption" value="Mobile Staion Link ID" />
+      </field>
+      <field id="sendermobilenumber">
+        <phrase id="fldcaption" value="Mobile Number" />
+      </field>
+      <field id="stationid">
+        <phrase id="fldcaption" value="Station Name" />
+      </field>
+      <field id="effective_from_date">
+        <phrase id="fldcaption" value="Effective From Date" />
+      </field>
+      <field id="effective_till_date">
+        <phrase id="fldcaption" value="Effective till Date" />
+      </field>
+      <field id="remarks">
+        <phrase id="fldcaption" value="Remarks" />
+      </field>
+    </table>
+    <table id="newstations">
+      <phrase id="tblcaption" value="New Stations" />
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="number">
+        <phrase id="fldcaption" value="Number" />
+      </field>
+    </table>
+    <table id="newstationslist">
+      <phrase id="tblcaption" value="newstationslist" />
+      <field id="stationname">
+        <phrase id="fldcaption" value="Station Name" />
+      </field>
+      <field id="district">
+        <phrase id="fldcaption" value="District" />
+      </field>
+      <field id="taluk">
+        <phrase id="fldcaption" value="Taluk" />
+      </field>
+      <field id="nameofsubdivision">
+        <phrase id="fldcaption" value="Nameof Sub Division" />
+      </field>
+      <field id="typeofstation">
+        <phrase id="fldcaption" value="Typeof Station" />
+      </field>
+      <field id="basinname">
+        <phrase id="fldcaption" value="Basin Name" />
+      </field>
+      <field id="subbasinname">
+        <phrase id="fldcaption" value="Sub Basinname" />
+      </field>
+      <field id="damcatchment">
+        <phrase id="fldcaption" value="Dam Catchment" />
+      </field>
+      <field id="longitude">
+        <phrase id="fldcaption" value="Longitude" />
+      </field>
+      <field id="latitude">
+        <phrase id="fldcaption" value="Latitude" />
+      </field>
+      <field id="mobilenumber">
+        <phrase id="fldcaption" value="Mobile Number" />
+      </field>
+      <field id="sendermobilenumber">
+        <phrase id="fldcaption" value="sender Mobile Number" />
+      </field>
+      <field id="stationid">
+        <phrase id="fldcaption" value="Station Id" />
+      </field>
+    </table>
+    <table id="obs_ksndmc_rainfall">
+      <phrase id="tblcaption" value="KSNDMC Rainfall Data" />
+      <field id="raingauge_id">
+        <phrase id="fldcaption" value="Raingauge id" />
+      </field>
+      <field id="obs_datetime">
+        <phrase id="fldcaption" value="Date" />
+      </field>
+      <field id="rainfall">
+        <phrase id="fldcaption" value="Rainfall (in mm)" />
+      </field>
+    </table>
+    <table id="obs_rainfall">
+      <phrase id="tblcaption" value="Rainfall Data By WRDO Staff (Full Access)" />
+      <field id="obs_rainfall_id">
+        <phrase id="fldcaption" value="obs rainfall ID" />
+      </field>
+      <field id="obs_date">
+        <phrase id="fldcaption" value="Date (ದಿನಾಂಕ)" />
+      </field>
+      <field id="stationcode">
+        <phrase id="fldcaption" value="Station Code" />
+      </field>
+      <field id="rainfall">
+        <phrase id="fldcaption" value="Rainfall (ಪರ್ಜನ್ಯl) (mm)" />
+      </field>
+      <field id="rainfall_lastyear">
+        <phrase id="fldcaption" value="Lastyear" />
+      </field>
+      <field id="rainfall_30year_avg">
+        <phrase id="fldcaption" value="30 Years Avg" />
+      </field>
+      <field id="obs_status">
+        <phrase id="fldcaption" value="Status" />
+      </field>
+      <field id="obs_remarks">
+        <phrase id="fldcaption" value="Remarks(ಟಿಪ್ಪಣಿಗಳು)" />
+      </field>
+      <field id="validated">
+        <phrase id="fldcaption" value="Validated" />
+        <phrase id="fldtagvalue1" value="0" />
+        <phrase id="fldtagcaption1" value="No" />
+        <phrase id="fldtagvalue2" value="1" />
+        <phrase id="fldtagcaption2" value="Yes" />
+      </field>
+      <field id="subdivisionid">
+        <phrase id="fldcaption" value="Sub Division Id" />
+      </field>
+      <field id="subdivision_code">
+        <phrase id="fldcaption" value="Sub Division code" />
+      </field>
+    </table>
+    <table id="obs_sms_messages">
+      <phrase id="tblcaption" value="SMS Messages Dump" />
+      <field id="message_id">
+        <phrase id="fldcaption" value="message id" />
+      </field>
+      <field id="smsdatetime">
+        <phrase id="fldcaption" value="SMSDate Time" />
+      </field>
+      <field id="mobilenumber">
+        <phrase id="fldcaption" value="Mobile Number" />
+      </field>
+      <field id="systemdatetime">
+        <phrase id="fldcaption" value="System Date Time" />
+      </field>
+      <field id="rainfall">
+        <phrase id="fldcaption" value="rainfall" />
+      </field>
+      <field id="stationid">
+        <phrase id="fldcaption" value="station id" />
+      </field>
+      <field id="subdivisionid">
+        <phrase id="fldcaption" value="Sub Basin Id" />
+      </field>
+      <field id="smstext">
+        <phrase id="fldcaption" value="SMSText" />
+      </field>
+      <field id="sms_statusid">
+        <phrase id="fldcaption" value="is Posted" />
+      </field>
+    </table>
+    <table id="oldstations">
+      <phrase id="tblcaption" value="oldstations" />
+      <field id="station">
+        <phrase id="fldcaption" value="Station" />
+      </field>
+      <field id="newnumbers">
+        <phrase id="fldcaption" value="New Numbers" />
+      </field>
+      <field id="oldnumbers">
+        <phrase id="fldcaption" value="Old Numbers" />
+      </field>
+    </table>
+    <table id="tbl_hmsdata">
+      <phrase id="tblcaption" value="HMS Rainfall Data" />
+      <field id="slno">
+        <phrase id="fldcaption" value="Slno" />
+      </field>
+      <field id="stationid">
+        <phrase id="fldcaption" value="Station" />
+      </field>
+      <field id="obs_datetime">
+        <phrase id="fldcaption" value="Obs. Date (dd/mm/yyyy)" />
+      </field>
+      <field id="temp_water_in_pan_inc_830am">
+        <phrase id="fldcaption" value="Temp water in pan in °C (830AM)" />
+      </field>
+      <field id="temp_water_in_pan_inc_530pm">
+        <phrase id="fldcaption" value="Temp water in pan in °C (530PM)" />
+      </field>
+      <field id="app_evaporation_inmm_830am">
+        <phrase id="fldcaption" value="App Evaporation in MM (830AM)" />
+      </field>
+      <field id="app_evaporation_inmm_530pm">
+        <phrase id="fldcaption" value="App Evaporation in MM (530PM)" />
+      </field>
+      <field id="rainfall_inmm_830am">
+        <phrase id="fldcaption" value="Rainfall in MM( 830AM)" />
+      </field>
+      <field id="rainfall_inmm_530pm">
+        <phrase id="fldcaption" value="Rainfall in MM (530PM)" />
+      </field>
+      <field id="evaporation_curing_inmm_830am">
+        <phrase id="fldcaption" value="Evaporation curing in MM (830AM)" />
+      </field>
+      <field id="evaporation_curing_inmm_530pm">
+        <phrase id="fldcaption" value="Evaporation curing in MM (530PM)" />
+      </field>
+      <field id="evaporation_curing_daywithrain_inmm">
+        <phrase id="fldcaption" value="Evaporation curing Daywith Rain in MM" />
+      </field>
+      <field id="evaporation_curing_daywithnorain_inmm">
+        <phrase id="fldcaption" value="Evaporation curing Daywith No Rain in MM" />
+      </field>
+      <field id="dry_bulb_temp_inc_830am">
+        <phrase id="fldcaption" value="Dry Bulb Temp in C 830AM" />
+      </field>
+      <field id="wet_bulb_temp_inc_830am">
+        <phrase id="fldcaption" value="Wet Bulb Temp in C 830AM" />
+      </field>
+      <field id="vapour_temp_inc_830am">
+        <phrase id="fldcaption" value="Vapour Temp in C 830AM" />
+      </field>
+      <field id="dry_bulb_temp_inc_530pm">
+        <phrase id="fldcaption" value="Dry Bulb Temp in C 530PM" />
+      </field>
+      <field id="wet_bulb_temp_inc_530pm">
+        <phrase id="fldcaption" value="Wet Bulb Temp in C 530PM" />
+      </field>
+      <field id="vapour_temp_inc_530pm">
+        <phrase id="fldcaption" value="Vapour Temp in C 530PM" />
+      </field>
+      <field id="max_temp_inc">
+        <phrase id="fldcaption" value="Max Temp in C" />
+      </field>
+      <field id="min_temp_inc">
+        <phrase id="fldcaption" value="Min Temp in C" />
+      </field>
+      <field id="total_wind_run_inkm_830am">
+        <phrase id="fldcaption" value="Total Wind Run in KM 830AM" />
+      </field>
+      <field id="total_wind_run_inkm_530pm">
+        <phrase id="fldcaption" value="Total Wind Run in KM 530PM" />
+      </field>
+      <field id="average_wind_speed_inkm">
+        <phrase id="fldcaption" value="Average Wind Speed in KM" />
+      </field>
+      <field id="number_of_hours_of_brightsuned">
+        <phrase id="fldcaption" value="Number of Hours of Brightsuned" />
+      </field>
+      <field id="relative_humidity_in_precentage_830am">
+        <phrase id="fldcaption" value="Relative Humidity in Precentage 830AM" />
+      </field>
+      <field id="relative_humidity_in_precentage_530pm">
+        <phrase id="fldcaption" value="Relative Humidity in Precentage 530PM" />
+      </field>
+      <field id="obs_remarks">
+        <phrase id="fldcaption" value="obs remarks" />
+      </field>
+      <field id="status">
+        <phrase id="fldcaption" value="Status" />
+      </field>
+      <field id="validated">
+        <phrase id="fldcaption" value="Validated" />
+      </field>
+      <field id="isfreeze">
+        <phrase id="fldcaption" value="is Freeze" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Yes" />
+        <phrase id="fldtagvalue2" value="0" />
+        <phrase id="fldtagcaption2" value="No" />
+      </field>
+    </table>
+    <table id="tbl_sms_monthly">
+      <phrase id="tblcaption" value="Monthly Rainfall Entry" />
+      <field id="slno">
+        <phrase id="fldcaption" value="Slno" />
+      </field>
+      <field id="stationid">
+        <phrase id="fldcaption" value="Station" />
+      </field>
+      <field id="water_year">
+        <phrase id="fldcaption" value="Water Year" />
+      </field>
+      <field id="day_of_month">
+        <phrase id="fldcaption" value="Day of Month" />
+      </field>
+      <field id="jun_rainfall">
+        <phrase id="fldcaption" value="Jun Rainfall" />
+      </field>
+      <field id="jul_rainfall">
+        <phrase id="fldcaption" value="Jul Rainfall" />
+      </field>
+      <field id="aug_rainfall">
+        <phrase id="fldcaption" value="Aug Rainfall" />
+      </field>
+      <field id="sep_rainfall">
+        <phrase id="fldcaption" value="Sep Rainfall" />
+      </field>
+      <field id="oct_rainfall">
+        <phrase id="fldcaption" value="Oct Rainfall" />
+      </field>
+      <field id="nov_rainfall">
+        <phrase id="fldcaption" value="Nov Rainfall" />
+      </field>
+      <field id="dec_rainfall">
+        <phrase id="fldcaption" value="Dec Rainfall" />
+      </field>
+      <field id="jan_rainfall">
+        <phrase id="fldcaption" value="Jan Rainfall" />
+      </field>
+      <field id="feb_rainfall">
+        <phrase id="fldcaption" value="Feb Rainfall" />
+      </field>
+      <field id="mar_rainfall">
+        <phrase id="fldcaption" value="Mar Rainfall" />
+      </field>
+      <field id="apr_rainfall">
+        <phrase id="fldcaption" value="Apr Rainfall" />
+      </field>
+      <field id="may_rainfall">
+        <phrase id="fldcaption" value="May Rainfall" />
+      </field>
+      <field id="sendermobilenumber">
+        <phrase id="fldcaption" value="Sender Mobile Number" />
+      </field>
+      <field id="ischanged">
+        <phrase id="fldcaption" value="Is Changed" />
+      </field>
+      <field id="subdivisionid">
+        <phrase id="fldcaption" value="Sub Division Id" />
+      </field>
+    </table>
+    <table id="tbl_sms_monthly_day">
+      <phrase id="tblcaption" value="Monthly Rainfall Entry (Day-Row)" />
+      <field id="slno">
+        <phrase id="fldcaption" value="Slno" />
+      </field>
+      <field id="stationid">
+        <phrase id="fldcaption" value="Station" />
+      </field>
+      <field id="month_id">
+        <phrase id="fldcaption" value="Month" />
+      </field>
+      <field id="_01_rf">
+        <phrase id="fldcaption" value="01 RF" />
+      </field>
+      <field id="_02_rf">
+        <phrase id="fldcaption" value="02 RF" />
+      </field>
+      <field id="_03_rf">
+        <phrase id="fldcaption" value="03 RF" />
+      </field>
+      <field id="_04_rf">
+        <phrase id="fldcaption" value="04 RF" />
+      </field>
+      <field id="_05_rf">
+        <phrase id="fldcaption" value="05 RF" />
+      </field>
+      <field id="_06_rf">
+        <phrase id="fldcaption" value="06 RF" />
+      </field>
+      <field id="_07_rf">
+        <phrase id="fldcaption" value="07 RF" />
+      </field>
+      <field id="_08_rf">
+        <phrase id="fldcaption" value="08 RF" />
+      </field>
+      <field id="_09_rf">
+        <phrase id="fldcaption" value="09 RF" />
+      </field>
+      <field id="_10_rf">
+        <phrase id="fldcaption" value="10 RF" />
+      </field>
+      <field id="_11_rf">
+        <phrase id="fldcaption" value="11 rf" />
+      </field>
+      <field id="_12_rf">
+        <phrase id="fldcaption" value="12 rf" />
+      </field>
+      <field id="_13_rf">
+        <phrase id="fldcaption" value="13 rf" />
+      </field>
+      <field id="_14_rf">
+        <phrase id="fldcaption" value="14 rf" />
+      </field>
+      <field id="_15_rf">
+        <phrase id="fldcaption" value="15 rf" />
+      </field>
+      <field id="_16_rf">
+        <phrase id="fldcaption" value="16 rf" />
+      </field>
+      <field id="_17_rf">
+        <phrase id="fldcaption" value="17 rf" />
+      </field>
+      <field id="_18_rf">
+        <phrase id="fldcaption" value="18 rf" />
+      </field>
+      <field id="_19_rf">
+        <phrase id="fldcaption" value="19 rf" />
+      </field>
+      <field id="_20_rf">
+        <phrase id="fldcaption" value="20 rf" />
+      </field>
+      <field id="_21_rf">
+        <phrase id="fldcaption" value="21 rf" />
+      </field>
+      <field id="_22_rf">
+        <phrase id="fldcaption" value="22 rf" />
+      </field>
+      <field id="_23_rf">
+        <phrase id="fldcaption" value="23 RF" />
+      </field>
+      <field id="_24_rf">
+        <phrase id="fldcaption" value="24 RF" />
+      </field>
+      <field id="_25_rf">
+        <phrase id="fldcaption" value="25 RF" />
+      </field>
+      <field id="_26_rf">
+        <phrase id="fldcaption" value="26 RF" />
+      </field>
+      <field id="_27_rf">
+        <phrase id="fldcaption" value="27 RF" />
+      </field>
+      <field id="_28_rf">
+        <phrase id="fldcaption" value="28 RF" />
+      </field>
+      <field id="_29_rf">
+        <phrase id="fldcaption" value="29 RF" />
+      </field>
+      <field id="_30_rf">
+        <phrase id="fldcaption" value="30 RF" />
+      </field>
+      <field id="_31_rf">
+        <phrase id="fldcaption" value="31 RF" />
+      </field>
+      <field id="subdivisionid">
+        <phrase id="fldcaption" value="Sub Division" />
+      </field>
+      <field id="water_year">
+        <phrase id="fldcaption" value="Water Year" />
+      </field>
+      <field id="sendermobilenumber">
+        <phrase id="fldcaption" value="Sender Mobile Number" />
+      </field>
+      <field id="ischanged">
+        <phrase id="fldcaption" value="Is Changed" />
+      </field>
+    </table>
+    <table id="tbl_smsdata">
+      <phrase id="tblcaption" value="Rainfall Data (SMS)" />
+      <field id="slno">
+        <phrase id="fldcaption" value="Slno" />
+      </field>
+      <field id="smsdatetime">
+        <phrase id="fldcaption" value="Date (ದಿನಾಂಕ)" />
+      </field>
+      <field id="stationid">
+        <phrase id="fldcaption" value="Station Name" />
+      </field>
+      <field id="subdivid">
+        <phrase id="fldcaption" value="Sub Division" />
+      </field>
+      <field id="senddatetime">
+        <phrase id="fldcaption" value="SMS Send Date Time" />
+      </field>
+      <field id="rainfall">
+        <phrase id="fldcaption" value="Rainfall (ಮಳೆ) (mm)" />
+        <phrase id="flderrmsg" value="(ಮಿಮೀ ಮಳೆಯು 200.00 ಕ್ಕಿಂತ ಹೆಚ್ಚಿರಬಾರದು) Rainfall in mm can not be more than 200.00 " />
+      </field>
+      <field id="obsremarks">
+        <phrase id="fldcaption" value="Remarks (ಟೀಕೆಗಳು)" />
+      </field>
+      <field id="status">
+        <phrase id="fldcaption" value="Status" />
+      </field>
+      <field id="validated">
+        <phrase id="fldcaption" value="Validated?" />
+      </field>
+      <field id="sendermobilenumber">
+        <phrase id="fldcaption" value="Sender Mobile Number" />
+      </field>
+      <field id="isfirstmsg">
+        <phrase id="fldcaption" value="Is First Msg" />
+      </field>
+      <field id="smstext">
+        <phrase id="fldcaption" value="SMS Text" />
+      </field>
+      <field id="isfreeze">
+        <phrase id="fldcaption" value="Is Record Freezed?" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Yes" />
+        <phrase id="fldtagvalue2" value="0" />
+        <phrase id="fldtagcaption2" value="No" />
+      </field>
+      <field id="systemdatetime">
+        <phrase id="fldcaption" value="System Date" />
+      </field>
+      <field id="confirmquerydatetime">
+        <phrase id="fldcaption" value="Confirm Query Date Time" />
+      </field>
+      <field id="confirmeddatetime">
+        <phrase id="fldcaption" value="Confirmed Date Time" />
+      </field>
+    </table>
+    <table id="tbl_smsdata_archive">
+      <phrase id="tblcaption" value="Archive Smsdata " />
+      <field id="slno">
+        <phrase id="fldcaption" value="Slno" />
+      </field>
+      <field id="smsdatetime">
+        <phrase id="fldcaption" value="SMSDate Time" />
+      </field>
+      <field id="systemdatetime">
+        <phrase id="fldcaption" value="System Date Time" />
+      </field>
+      <field id="confirmquerydatetime">
+        <phrase id="fldcaption" value="Confirm Query Date Time" />
+      </field>
+      <field id="confirmeddatetime">
+        <phrase id="fldcaption" value="Confirmed Date Time" />
+      </field>
+      <field id="senddatetime">
+        <phrase id="fldcaption" value="Send Date Time" />
+      </field>
+      <field id="smstext">
+        <phrase id="fldcaption" value="SMSText" />
+      </field>
+      <field id="status">
+        <phrase id="fldcaption" value="Status" />
+      </field>
+      <field id="obsremarks">
+        <phrase id="fldcaption" value="obsremarks" />
+      </field>
+      <field id="sendermobilenumber">
+        <phrase id="fldcaption" value="Sender Mobile Number" />
+      </field>
+      <field id="subdivid">
+        <phrase id="fldcaption" value="Sub Div Id" />
+      </field>
+      <field id="stationid">
+        <phrase id="fldcaption" value="Station Id" />
+      </field>
+      <field id="isfirstmsg">
+        <phrase id="fldcaption" value="Is First Msg" />
+      </field>
+      <field id="validated">
+        <phrase id="fldcaption" value="Validated" />
+      </field>
+      <field id="isfreeze">
+        <phrase id="fldcaption" value="is Freeze" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Yes" />
+        <phrase id="fldtagvalue2" value="0" />
+        <phrase id="fldtagcaption2" value="No" />
+      </field>
+      <field id="rainfall">
+        <phrase id="fldcaption" value="rainfall" />
+      </field>
+      <field id="min_air_temp">
+        <phrase id="fldcaption" value="min air temp" />
+      </field>
+      <field id="max_air_temp">
+        <phrase id="fldcaption" value="max air temp" />
+      </field>
+      <field id="atmospheric_pressure">
+        <phrase id="fldcaption" value="atmospheric pressure" />
+      </field>
+      <field id="wind_speed">
+        <phrase id="fldcaption" value="wind speed" />
+      </field>
+      <field id="precipitation">
+        <phrase id="fldcaption" value="precipitation" />
+      </field>
+    </table>
+    <table id="vw_datewise_dash">
+      <phrase id="tblcaption" value="Data Collection Status (Datewise)" />
+      <field id="sms_date">
+        <phrase id="fldcaption" value="Date" />
+      </field>
+      <field id="percent_completed">
+        <phrase id="fldcaption" value="% Completed" />
+      </field>
+      <field id="total_verified">
+        <phrase id="fldcaption" value="Verified" />
+      </field>
+      <field id="total_cehp_created">
+        <phrase id="fldcaption" value="CEHP Created" />
+      </field>
+      <field id="total_auto_created">
+        <phrase id="fldcaption" value="Auto created" />
+      </field>
+      <field id="total_status_3">
+        <phrase id="fldcaption" value="Status 3" />
+      </field>
+      <field id="total_station">
+        <phrase id="fldcaption" value="No. of Station" />
+      </field>
+    </table>
+    <table id="vw_dist_rainfall">
+      <phrase id="tblcaption" value="Districtwise Rainfall Latest" />
+      <field id="districtid">
+        <phrase id="fldcaption" value="District" />
+      </field>
+      <field id="smsdate">
+        <phrase id="fldcaption" value="Date" />
+      </field>
+      <field id="total_dist_rainfall">
+        <phrase id="fldcaption" value="Total Rainfal for Districtl" />
+      </field>
+      <field id="no_of_staion_dist">
+        <phrase id="fldcaption" value="No. of Staion Reported" />
+      </field>
+      <field id="dist_average">
+        <phrase id="fldcaption" value="District Average" />
+      </field>
+    </table>
+    <table id="vw_excp_dupmobilenumber">
+      <phrase id="tblcaption" value="Duplicate Mobile Number" />
+      <field id="stationid">
+        <phrase id="fldcaption" value="Station Id" />
+      </field>
+      <field id="stationname">
+        <phrase id="fldcaption" value="Station Name" />
+      </field>
+      <field id="mobilenumber">
+        <phrase id="fldcaption" value="Mobile Number" />
+      </field>
+      <field id="subdivisionid">
+        <phrase id="fldcaption" value="Sub Division" />
+      </field>
+      <field id="stationsetup">
+        <phrase id="fldcaption" value="Station Setup" />
+      </field>
+    </table>
+    <table id="vw_excp_mobilenumbernotmapped">
+      <phrase id="tblcaption" value="Mobile Number Not Mapped" />
+      <field id="sendermobilenumber">
+        <phrase id="fldcaption" value="Sender Mobile Number" />
+      </field>
+      <field id="number_of_sms">
+        <phrase id="fldcaption" value="Precipitation (ಮಳೆ)" />
+      </field>
+    </table>
+    <table id="vw_mst_station_mob">
+      <phrase id="tblcaption" value="Station List by Mobile" />
+      <field id="stationid">
+        <phrase id="fldcaption" value="Station Id" />
+      </field>
+      <field id="stationname">
+        <phrase id="fldcaption" value="Station Name" />
+      </field>
+      <field id="stationname_kn">
+        <phrase id="fldcaption" value="Station Name kn" />
+      </field>
+      <field id="mobilenumber">
+        <phrase id="fldcaption" value="Mobile Number" />
+      </field>
+      <field id="subdivisionid">
+        <phrase id="fldcaption" value="Sub Division Id" />
+      </field>
+      <field id="mst_station_owner">
+        <phrase id="fldcaption" value="mst station owner" />
+      </field>
+      <field id="first_reading_date">
+        <phrase id="fldcaption" value="first reading date" />
+      </field>
+      <field id="last_reading_date">
+        <phrase id="fldcaption" value="last reading date" />
+      </field>
+    </table>
+    <table id="vw_mst_station_subdivision">
+      <phrase id="tblcaption" value="Defaulter List" />
+      <field id="stationid">
+        <phrase id="fldcaption" value="Station Id" />
+      </field>
+      <field id="stationcode">
+        <phrase id="fldcaption" value="Station Name" />
+      </field>
+      <field id="stationname">
+        <phrase id="fldcaption" value="Station Name" />
+      </field>
+      <field id="mobilenumber">
+        <phrase id="fldcaption" value="Mobile Number" />
+      </field>
+      <field id="subdivisionid">
+        <phrase id="fldcaption" value="Sub Division Id" />
+      </field>
+      <field id="last_reading_date">
+        <phrase id="fldcaption" value="Last Reading Received" />
+      </field>
+      <field id="first_reading_date">
+        <phrase id="fldcaption" value="First Reading Received" />
+      </field>
+      <field id="stationname_kn">
+        <phrase id="fldcaption" value="Station Name kn" />
+      </field>
+      <field id="mst_station_owner">
+        <phrase id="fldcaption" value="mst station owner" />
+      </field>
+    </table>
+    <table id="vw_rpt_dmcreport">
+      <phrase id="tblcaption" value="DMC Report" />
+      <field id="raingauge_id">
+        <phrase id="fldcaption" value="Raingauge" />
+      </field>
+      <field id="obs_datetime">
+        <phrase id="fldcaption" value="Date" />
+      </field>
+      <field id="district_name">
+        <phrase id="fldcaption" value="District" />
+      </field>
+      <field id="taluka_name">
+        <phrase id="fldcaption" value="Taluka" />
+      </field>
+      <field id="station_name">
+        <phrase id="fldcaption" value="Station Name" />
+      </field>
+      <field id="rainfall">
+        <phrase id="fldcaption" value="Rainfall (ಮಳೆ) (MM)" />
+      </field>
+      <field id="station_id">
+        <phrase id="fldcaption" value="Station" />
+      </field>
+    </table>
+    <table id="vw_rpt_invalidmessages">
+      <phrase id="tblcaption" value="Invalid Messages" />
+      <field id="stationid">
+        <phrase id="fldcaption" value="Station" />
+      </field>
+      <field id="subdivisionid">
+        <phrase id="fldcaption" value="Sub Division Id" />
+      </field>
+      <field id="smsdatetime">
+        <phrase id="fldcaption" value="Received Date" />
+      </field>
+      <field id="smstext">
+        <phrase id="fldcaption" value="Message" />
+      </field>
+      <field id="mobilenumber">
+        <phrase id="fldcaption" value="Mobile Number" />
+      </field>
+      <field id="sms_statusid">
+        <phrase id="fldcaption" value="Status" />
+      </field>
+    </table>
+    <table id="vw_rpt_mst_station">
+      <phrase id="tblcaption" value="Station List" />
+      <field id="subdivisionid">
+        <phrase id="fldcaption" value="Sub Division Id" />
+      </field>
+      <field id="subdivisionname">
+        <phrase id="fldcaption" value="Sub Division Name" />
+      </field>
+      <field id="stationid">
+        <phrase id="fldcaption" value="Station Id" />
+      </field>
+      <field id="stationname">
+        <phrase id="fldcaption" value="Station Name" />
+      </field>
+      <field id="mobilenumber">
+        <phrase id="fldcaption" value="Mobile Number" />
+      </field>
+      <field id="longitude">
+        <phrase id="fldcaption" value="Longitude" />
+      </field>
+      <field id="latitude">
+        <phrase id="fldcaption" value="Latitude" />
+      </field>
+      <field id="isactive">
+        <phrase id="fldcaption" value="Is Active" />
+      </field>
+      <field id="stationsetup">
+        <phrase id="fldcaption" value="Station Setup" />
+      </field>
+      <field id="station_type_name">
+        <phrase id="fldcaption" value="Station Type" />
+      </field>
+      <field id="subbasinname">
+        <phrase id="fldcaption" value="Sub Basin" />
+      </field>
+      <field id="basinname">
+        <phrase id="fldcaption" value="Basin" />
+      </field>
+      <field id="districtname">
+        <phrase id="fldcaption" value="District Name" />
+      </field>
+      <field id="talukname">
+        <phrase id="fldcaption" value="Taluk Name" />
+      </field>
+      <field id="districtid">
+        <phrase id="fldcaption" value="District Id" />
+      </field>
+      <field id="talukid">
+        <phrase id="fldcaption" value="Taluk ID" />
+      </field>
+      <field id="basinid">
+        <phrase id="fldcaption" value="Basin Id" />
+      </field>
+      <field id="subbasinid">
+        <phrase id="fldcaption" value="Sub Basin Id" />
+      </field>
+      <field id="station_type">
+        <phrase id="fldcaption" value="station type" />
+      </field>
+    </table>
+    <table id="vw_rpt_rainfall">
+      <phrase id="tblcaption" value="Rainfall Report" />
+      <field id="slno">
+        <phrase id="fldcaption" value="Slno" />
+      </field>
+      <field id="stationid">
+        <phrase id="fldcaption" value="Station Id" />
+      </field>
+      <field id="districtid">
+        <phrase id="fldcaption" value="District" />
+      </field>
+      <field id="talukid">
+        <phrase id="fldcaption" value="Taluka" />
+      </field>
+      <field id="stationcode">
+        <phrase id="fldcaption" value="Station Code" />
+      </field>
+      <field id="stationname">
+        <phrase id="fldcaption" value="Station Name" />
+      </field>
+      <field id="subdivisionid">
+        <phrase id="fldcaption" value="Sub Division" />
+      </field>
+      <field id="basinid">
+        <phrase id="fldcaption" value="Basin" />
+      </field>
+      <field id="subbasinid">
+        <phrase id="fldcaption" value="Sub Basin" />
+      </field>
+      <field id="smsdatetime">
+        <phrase id="fldcaption" value="SMSDate Time" />
+      </field>
+      <field id="rainfall">
+        <phrase id="fldcaption" value="Rainfall (MM)" />
+      </field>
+      <field id="status">
+        <phrase id="fldcaption" value="Status" />
+      </field>
+      <field id="validated">
+        <phrase id="fldcaption" value="Validated" />
+      </field>
+      <field id="mobilenumber">
+        <phrase id="fldcaption" value="Mobile Number" />
+      </field>
+      <field id="isactive">
+        <phrase id="fldcaption" value="Is Active" />
+        <phrase id="fldtagvalue1" value="Y" />
+        <phrase id="fldtagcaption1" value="Active" />
+        <phrase id="fldtagvalue2" value="N" />
+        <phrase id="fldtagcaption2" value="Not-Active" />
+      </field>
+      <field id="divisionid">
+        <phrase id="fldcaption" value="Division Id" />
+      </field>
+      <field id="stationname_kn">
+        <phrase id="fldcaption" value="Station Name kn" />
+      </field>
+    </table>
+    <table id="vw_rpt_rainfall_staff">
+      <phrase id="tblcaption" value="Rainfall Report (Staff)" />
+      <field id="slno">
+        <phrase id="fldcaption" value="Slno" />
+      </field>
+      <field id="smsdatetime">
+        <phrase id="fldcaption" value="SMSDate Time" />
+      </field>
+      <field id="subdivisionid">
+        <phrase id="fldcaption" value="Sub Division Id" />
+      </field>
+      <field id="stationid">
+        <phrase id="fldcaption" value="Station Id" />
+      </field>
+      <field id="rainfall">
+        <phrase id="fldcaption" value="Rainfall" />
+      </field>
+      <field id="status">
+        <phrase id="fldcaption" value="Status" />
+      </field>
+      <field id="validated">
+        <phrase id="fldcaption" value="Validated" />
+      </field>
+      <field id="stationname">
+        <phrase id="fldcaption" value="Station Name" />
+      </field>
+      <field id="stationname_kn">
+        <phrase id="fldcaption" value="Station Name kn" />
+      </field>
+      <field id="stationcode">
+        <phrase id="fldcaption" value="Station Code" />
+      </field>
+      <field id="mobilenumber">
+        <phrase id="fldcaption" value="Mobile Number" />
+      </field>
+      <field id="isactive">
+        <phrase id="fldcaption" value="Is Active" />
+      </field>
+      <field id="divisionid">
+        <phrase id="fldcaption" value="Division" />
+      </field>
+      <field id="districtid">
+        <phrase id="fldcaption" value="District" />
+      </field>
+      <field id="talukid">
+        <phrase id="fldcaption" value="Taluk" />
+      </field>
+      <field id="basinid">
+        <phrase id="fldcaption" value="Basin" />
+      </field>
+      <field id="subbasinid">
+        <phrase id="fldcaption" value="Sub Basin" />
+      </field>
+      <field id="obs_owner">
+        <phrase id="fldcaption" value="obs owner" />
+      </field>
+    </table>
+    <table id="vw_rpt_rainfall_subdivision">
+      <phrase id="tblcaption" value="Rainfall Report (Subdivision)" />
+      <field id="slno">
+        <phrase id="fldcaption" value="Slno" />
+      </field>
+      <field id="smsdatetime">
+        <phrase id="fldcaption" value="SMSDate Time" />
+      </field>
+      <field id="subdivisionid">
+        <phrase id="fldcaption" value="Sub Division Id" />
+      </field>
+      <field id="stationid">
+        <phrase id="fldcaption" value="Station Id" />
+      </field>
+      <field id="rainfall">
+        <phrase id="fldcaption" value="Rainfall" />
+      </field>
+      <field id="status">
+        <phrase id="fldcaption" value="Status" />
+      </field>
+      <field id="validated">
+        <phrase id="fldcaption" value="Validated" />
+      </field>
+      <field id="stationname">
+        <phrase id="fldcaption" value="Station Name" />
+      </field>
+      <field id="stationname_kn">
+        <phrase id="fldcaption" value="Station Name kn" />
+      </field>
+      <field id="stationcode">
+        <phrase id="fldcaption" value="Station Code" />
+      </field>
+      <field id="mobilenumber">
+        <phrase id="fldcaption" value="Mobile Number" />
+      </field>
+      <field id="isactive">
+        <phrase id="fldcaption" value="Is Active" />
+      </field>
+      <field id="divisionid">
+        <phrase id="fldcaption" value="Division" />
+      </field>
+      <field id="districtid">
+        <phrase id="fldcaption" value="District" />
+      </field>
+      <field id="talukid">
+        <phrase id="fldcaption" value="Taluk" />
+      </field>
+      <field id="basinid">
+        <phrase id="fldcaption" value="Basin" />
+      </field>
+      <field id="subbasinid">
+        <phrase id="fldcaption" value="Sub Basin" />
+      </field>
+      <field id="obs_owner">
+        <phrase id="fldcaption" value="obs owner" />
+      </field>
+    </table>
+    <table id="vw_rpt_sms_analyser">
+      <phrase id="tblcaption" value="SMS Analyser" />
+      <field id="smsdatetime">
+        <phrase id="fldcaption" value="Date" />
+      </field>
+      <field id="num_of_records">
+        <phrase id="fldcaption" value="Number of Stations" />
+      </field>
+      <field id="percent_completed">
+        <phrase id="fldcaption" value="Percent completed" />
+      </field>
+      <field id="num_of_sms_received">
+        <phrase id="fldcaption" value="SMS Received" />
+      </field>
+      <field id="num_of_created_1">
+        <phrase id="fldcaption" value="Auto Created Blank" />
+      </field>
+      <field id="num_of_entered_by_subdivision">
+        <phrase id="fldcaption" value="Entered by Subdivision" />
+      </field>
+      <field id="num_of_verified">
+        <phrase id="fldcaption" value="Verified" />
+      </field>
+      <field id="num_of_status_0">
+        <phrase id="fldcaption" value="CEHP_Certified" />
+      </field>
+      <field id="num_of_not_given">
+        <phrase id="fldcaption" value="Number of Not Given" />
+      </field>
+    </table>
+    <table id="vw_rpt_sms_analyser_subdivision">
+      <phrase id="tblcaption" value="SMS Analyser By Subdivision" />
+      <field id="smsdatetime">
+        <phrase id="fldcaption" value="Date" />
+      </field>
+      <field id="subdivid">
+        <phrase id="fldcaption" value="Sub Divison" />
+      </field>
+      <field id="num_of_records">
+        <phrase id="fldcaption" value="Number of Stations" />
+      </field>
+      <field id="percent_completed">
+        <phrase id="fldcaption" value="Percent completed" />
+      </field>
+      <field id="num_of_sms_received">
+        <phrase id="fldcaption" value="SMS Received" />
+      </field>
+      <field id="num_of_created_1">
+        <phrase id="fldcaption" value="Auto Created Blank" />
+      </field>
+      <field id="num_of_entered_by_subdivision">
+        <phrase id="fldcaption" value="Entered by Subdivision" />
+      </field>
+      <field id="num_of_verified">
+        <phrase id="fldcaption" value="Verified" />
+      </field>
+      <field id="num_of_status_0">
+        <phrase id="fldcaption" value="CEHP_Certified" />
+      </field>
+      <field id="num_of_not_given">
+        <phrase id="fldcaption" value="Not Given" />
+      </field>
+      <field id="sub_division">
+        <phrase id="fldcaption" value="Sub Division" />
+      </field>
+    </table>
+    <table id="vw_smsdata_firstlast">
+      <phrase id="tblcaption" value="Smsdata First and Last Date" />
+      <field id="sendermobilenumber">
+        <phrase id="fldcaption" value="Sender Mobile Number" />
+      </field>
+      <field id="first_reading_date">
+        <phrase id="fldcaption" value="First reading date" />
+      </field>
+      <field id="last_reading_date">
+        <phrase id="fldcaption" value="Last reading date" />
+      </field>
+    </table>
+    <table id="vw_staff_rainfall_entry">
+      <phrase id="tblcaption" value="vw staff rainfall entry" />
+      <field id="obs_rainfall_id">
+        <phrase id="fldcaption" value="obs rainfall ID" />
+      </field>
+      <field id="obs_date">
+        <phrase id="fldcaption" value="Date" />
+      </field>
+      <field id="stationcode">
+        <phrase id="fldcaption" value="Station Name (ಮಳೆ ಮಾಪಕ ಹೆಸರು)" />
+      </field>
+      <field id="rainfall">
+        <phrase id="fldcaption" value="Rainfall (ಮಳೆ) (mm)" />
+        <phrase id="flderrmsg" value="(ಮಿಮೀ ಮಳೆಯು 200.00 ಕ್ಕಿಂತ ಹೆಚ್ಚಿರಬಾರದು) Rainfall in mm can not be more than 600.00 " />
+      </field>
+      <field id="obs_remarks">
+        <phrase id="fldcaption" value="Remarks (ಟೀಕೆಗಳು)" />
+      </field>
+      <field id="mst_status">
+        <phrase id="fldcaption" value="mst status" />
+      </field>
+      <field id="mst_validated">
+        <phrase id="fldcaption" value="mst validated" />
+      </field>
+      <field id="mobile_number">
+        <phrase id="fldcaption" value="Mobile number" />
+      </field>
+      <field id="subdivisionid">
+        <phrase id="fldcaption" value="Sub Division" />
+      </field>
+      <field id="subdivision_code">
+        <phrase id="fldcaption" value="Sub Division code" />
+      </field>
+      <field id="obs_owner">
+        <phrase id="fldcaption" value="obs owner" />
+      </field>
+    </table>
+    <table id="vw_staff_rainfall_entry_mob">
+      <phrase id="tblcaption" value="Rainfall Data By Field Staff (Mobile)" />
+      <phrase id="tblpagecaption1" value="Rainfall" />
+      <phrase id="tblpagecaption2" value="Other Info" />
+      <field id="obs_rainfall_id">
+        <phrase id="fldcaption" value="obs rainfall ID" />
+      </field>
+      <field id="obs_date">
+        <phrase id="fldcaption" value="Date (ದಿನಾಂಕ)" />
+      </field>
+      <field id="rainfall">
+        <phrase id="fldcaption" value="Rainfall (ಮಳೆ) (mm)" />
+        <phrase id="flderrmsg" value="(ಮಿಮೀ ಮಳೆಯು 200.00 ಕ್ಕಿಂತ ಹೆಚ್ಚಿರಬಾರದು) Rainfall in mm can not be more than 600.00 " />
+      </field>
+      <field id="obs_remarks">
+        <phrase id="fldcaption" value="Remarks (ಟೀಕೆಗಳು)" />
+      </field>
+      <field id="mst_status">
+        <phrase id="fldcaption" value="Status" />
+      </field>
+      <field id="mst_validated">
+        <phrase id="fldcaption" value="Validated" />
+      </field>
+      <field id="stationcode">
+        <phrase id="fldcaption" value="Station Name (ಮಳೆ ಮಾಪಕ ಹೆಸರು)" />
+      </field>
+      <field id="mobile_number">
+        <phrase id="fldcaption" value="Mobile Number (ಮೊಬೈಲ್ ನಂಬರ)" />
+      </field>
+      <field id="obs_owner">
+        <phrase id="fldcaption" value="obs owner" />
+      </field>
+      <field id="subdivisionid">
+        <phrase id="fldcaption" value="Sub Division (ಉಪ ವಿಭಾಗ)" />
+      </field>
+      <field id="subdivision_code">
+        <phrase id="fldcaption" value="Rainfall List ID" />
+      </field>
+    </table>
+    <table id="vw_subdiv_rainfall_entry">
+      <phrase id="tblcaption" value="Rainfall Entry (Subdivision)" />
+      <field id="obs_rainfall_id">
+        <phrase id="fldcaption" value="Rainfall List ID" />
+      </field>
+      <field id="obs_date">
+        <phrase id="fldcaption" value="Date" />
+      </field>
+      <field id="stationcode">
+        <phrase id="fldcaption" value="Station" />
+      </field>
+      <field id="subdivisionid">
+        <phrase id="fldcaption" value="Sub Division Id" />
+      </field>
+      <field id="rainfall">
+        <phrase id="fldcaption" value="Rainfall in MM" />
+      </field>
+      <field id="obs_remarks">
+        <phrase id="fldcaption" value="Remarks" />
+      </field>
+      <field id="mst_status">
+        <phrase id="fldcaption" value="Status" />
+      </field>
+      <field id="mst_validated">
+        <phrase id="fldcaption" value="Validated" />
+      </field>
+      <field id="mobile_number">
+        <phrase id="fldcaption" value="Mobile Number" />
+      </field>
+      <field id="isfreeze">
+        <phrase id="fldcaption" value="is Freeze" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Yes" />
+        <phrase id="fldtagvalue2" value="0" />
+        <phrase id="fldtagcaption2" value="No" />
+      </field>
+      <field id="subdivision_code">
+        <phrase id="fldcaption" value="Sub Division" />
+      </field>
+      <field id="obs_owner">
+        <phrase id="fldcaption" value="Rainfall List ID" />
+      </field>
+    </table>
+    <table id="vw_subdivision_dash">
+      <phrase id="tblcaption" value="Data Collection Status (Subdivision/Datewise)" />
+      <field id="sms_date">
+        <phrase id="fldcaption" value="Date" />
+      </field>
+      <field id="subdivid">
+        <phrase id="fldcaption" value="Sub Division" />
+      </field>
+      <field id="percent_completed">
+        <phrase id="fldcaption" value="Percent Completed" />
+      </field>
+      <field id="total_verified">
+        <phrase id="fldcaption" value="Verified" />
+      </field>
+      <field id="total_cehp_created">
+        <phrase id="fldcaption" value="CEHP Created" />
+      </field>
+      <field id="total_auto_created">
+        <phrase id="fldcaption" value="Auto created" />
+      </field>
+      <field id="total_status_3">
+        <phrase id="fldcaption" value="Status 3" />
+      </field>
+      <field id="total_station">
+        <phrase id="fldcaption" value="No. Of Station" />
+      </field>
+    </table>
+    <table id="vw_tbl_sms_monthly_subdivision">
+      <phrase id="tblcaption" value="Monthly Rainfall Entry By Subdivision" />
+      <field id="slno">
+        <phrase id="fldcaption" value="Slno" />
+      </field>
+      <field id="stationid">
+        <phrase id="fldcaption" value="Station" />
+      </field>
+      <field id="subdivisionid">
+        <phrase id="fldcaption" value="Sub Division" />
+      </field>
+      <field id="sendermobilenumber">
+        <phrase id="fldcaption" value="Sender Mobile Number" />
+      </field>
+      <field id="water_year">
+        <phrase id="fldcaption" value="Water Year" />
+      </field>
+      <field id="day_of_month">
+        <phrase id="fldcaption" value="day of month" />
+      </field>
+      <field id="jun_rainfall">
+        <phrase id="fldcaption" value="Jun Rainfall" />
+      </field>
+      <field id="jul_rainfall">
+        <phrase id="fldcaption" value="Jul Rainfall" />
+      </field>
+      <field id="aug_rainfall">
+        <phrase id="fldcaption" value="Aug Rainfall" />
+      </field>
+      <field id="sep_rainfall">
+        <phrase id="fldcaption" value="Sep Rainfall" />
+      </field>
+      <field id="oct_rainfall">
+        <phrase id="fldcaption" value="Oct Rainfall" />
+      </field>
+      <field id="nov_rainfall">
+        <phrase id="fldcaption" value="Nov Rainfall" />
+      </field>
+      <field id="dec_rainfall">
+        <phrase id="fldcaption" value="Dec Rainfall" />
+      </field>
+      <field id="jan_rainfall">
+        <phrase id="fldcaption" value="Jan Rainfall" />
+      </field>
+      <field id="feb_rainfall">
+        <phrase id="fldcaption" value="Feb Rainfall" />
+      </field>
+      <field id="mar_rainfall">
+        <phrase id="fldcaption" value="Mar Rainfall" />
+      </field>
+      <field id="apr_rainfall">
+        <phrase id="fldcaption" value="Apr Rainfall" />
+      </field>
+      <field id="may_rainfall">
+        <phrase id="fldcaption" value="May Rainfall" />
+      </field>
+      <field id="ischanged">
+        <phrase id="fldcaption" value="Is Changed" />
+      </field>
+      <field id="obs_owner">
+        <phrase id="fldcaption" value="obs owner" />
+      </field>
+    </table>
+    <table id="vw_top_10_stations">
+      <phrase id="tblcaption" value="Top 10 Stations Reading" />
+      <field id="smsdatetime">
+        <phrase id="fldcaption" value="SMSDate Time" />
+      </field>
+      <field id="stationid">
+        <phrase id="fldcaption" value="Station (ನಿಲ್ದಾಣ)" />
+      </field>
+      <field id="mobilenumber">
+        <phrase id="fldcaption" value="Mobile Number" />
+      </field>
+      <field id="rainfall">
+        <phrase id="fldcaption" value="Rainfall( in mm) ಮಳೆ (ಮಿಮೀ ನಲ್ಲಿ)" />
+      </field>
+      <field id="smstext">
+        <phrase id="fldcaption" value="SMSText" />
+      </field>
+    </table>
+    <table id="vw_validate_smsdata">
+      <phrase id="tblcaption" value="Validate SMS Data" />
+      <field id="obs_rainfall_id">
+        <phrase id="fldcaption" value="SMSDate Time" />
+      </field>
+      <field id="stationcode">
+        <phrase id="fldcaption" value="Station Name" />
+      </field>
+      <field id="obs_date">
+        <phrase id="fldcaption" value="Date" />
+      </field>
+      <field id="rainfall">
+        <phrase id="fldcaption" value="Rainfall" />
+      </field>
+      <field id="mst_validated">
+        <phrase id="fldcaption" value="Validated" />
+      </field>
+      <field id="mst_status">
+        <phrase id="fldcaption" value="Status" />
+      </field>
+      <field id="obs_remarks">
+        <phrase id="fldcaption" value="obs remarks" />
+      </field>
+      <field id="subdivision_code">
+        <phrase id="fldcaption" value="Sub Division code" />
+      </field>
+      <field id="subdivisionid">
+        <phrase id="fldcaption" value="Sub Division" />
+      </field>
+      <field id="mobile_number">
+        <phrase id="fldcaption" value="Sender Mobile Number" />
+      </field>
+      <field id="obs_owner">
+        <phrase id="fldcaption" value="obs owner" />
+      </field>
+      <field id="isfreeze">
+        <phrase id="fldcaption" value="is Freeze" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Yes" />
+        <phrase id="fldtagvalue2" value="0" />
+        <phrase id="fldtagcaption2" value="No" />
+      </field>
+    </table>
+    <table id="master_dams">
+      <phrase id="tblcaption" value="Dams" />
+      <field id="srno">
+        <phrase id="fldcaption" value="Sr No" />
+      </field>
+      <field id="pic">
+        <phrase id="fldcaption" value="PIC" />
+      </field>
+      <field id="kpcl_id">
+        <phrase id="fldcaption" value="kpcl ID" />
+      </field>
+      <field id="name_of_dam">
+        <phrase id="fldcaption" value="Name of Dam" />
+      </field>
+      <field id="kpcl_dam_name">
+        <phrase id="fldcaption" value="kpcl dam name" />
+      </field>
+      <field id="ops_id">
+        <phrase id="fldcaption" value="Ops ID" />
+      </field>
+      <field id="dam_size_type_id">
+        <phrase id="fldcaption" value="dam size type ID" />
+      </field>
+      <field id="dam_longitude">
+        <phrase id="fldcaption" value="dam Longitude" />
+      </field>
+      <field id="dam_latitude">
+        <phrase id="fldcaption" value="dam Latitude" />
+      </field>
+      <field id="year_of_completion">
+        <phrase id="fldcaption" value="Year of Completion" />
+      </field>
+      <field id="basin">
+        <phrase id="fldcaption" value="Basin" />
+      </field>
+      <field id="sub_basin">
+        <phrase id="fldcaption" value="Sub Basin" />
+      </field>
+      <field id="district">
+        <phrase id="fldcaption" value="district" />
+      </field>
+      <field id="taluka">
+        <phrase id="fldcaption" value="Taluka" />
+      </field>
+      <field id="river">
+        <phrase id="fldcaption" value="River" />
+      </field>
+      <field id="neareast_city">
+        <phrase id="fldcaption" value="Neareast City" />
+      </field>
+      <field id="dam_construction_type">
+        <phrase id="fldcaption" value="dam construction type" />
+      </field>
+      <field id="height_above_lowest_foundation_level_in_mtr">
+        <phrase id="fldcaption" value="Height above Lowest Foundation Level in mtr" />
+      </field>
+      <field id="length_of_dam_in_mtr">
+        <phrase id="fldcaption" value="Length of Dam in mtr" />
+      </field>
+      <field id="volume_content_of_dam_in_mcm">
+        <phrase id="fldcaption" value="Volume Content of Dam in MCM" />
+      </field>
+      <field id="gross_storage_capacity_of_dam_in_mcm">
+        <phrase id="fldcaption" value="Gross Storage Capacity of Dam in MCM" />
+      </field>
+      <field id="reservoir_area_in_sq_km">
+        <phrase id="fldcaption" value="Reservoir Area in sq km" />
+      </field>
+      <field id="effective_storage_capacity_in_mcm">
+        <phrase id="fldcaption" value="Effective Storage Capacity in MCM" />
+      </field>
+      <field id="purpose">
+        <phrase id="fldcaption" value="Purpose" />
+      </field>
+      <field id="designed_spillway_capacity_in_m3_per_sec">
+        <phrase id="fldcaption" value="Designed Spillway Capacity in M3 per sec" />
+      </field>
+      <field id="dam_construction_type_id">
+        <phrase id="fldcaption" value="dam construction type ID" />
+      </field>
+    </table>
+  </project>
+</ew-language>
